@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs> should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <ul
+      class="tabs  nav nav-tabs"
+      role="tablist"
+    />
+    <div
+      class="tab-content"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StartAndEndInput should render with minimal props 1`] = `
+"<Fragment>
+  <WithStyles(ForwardRef(Grid)) item={true}>
+    <DateInput id=\\"StartAndEntInputId-start\\" value=\\"01/01/2010\\" error={[undefined]} helperText=\\"\\" onChange={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} classes={{...}} margin=\\"dense\\" InputLabelProps={{...}} label=\\"Start\\" isInvisible={false} variant=\\"outlined\\" InputProps={{...}} />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid)) item={true}>
+    <WithStyles(ForwardRef(Grid)) container={true}>
+      <WithStyles(ForwardRef(Grid)) item={true}>
+        <Memo(ForwardRef(ArrowRightAltIcon)) className={{...}} />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid)) item={true}>
+    <DateInput id=\\"StartAndEntInputId-end\\" value=\\"01/02/2010\\" error={[undefined]} helperText=\\"\\" onChange={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} classes={{...}} InputLabelProps={{...}} margin=\\"dense\\" label=\\"End\\" isInvisible={false} variant=\\"outlined\\" InputProps={{...}} />
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>"
+`;
+
+exports[`StartAndEndInput should render with minimal props 2`] = `
+"<Fragment>
+  <WithStyles(ForwardRef(Grid)) item={true}>
+    <TimeInput id=\\"StartAndEntInputId-start\\" value=\\"13:03\\" error={[undefined]} helperText=\\"\\" onChange={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} classes={{...}} margin=\\"dense\\" InputLabelProps={{...}} label=\\"Start\\" isInvisible={false} variant=\\"outlined\\" InputProps={{...}} />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid)) item={true}>
+    <WithStyles(ForwardRef(Grid)) container={true}>
+      <WithStyles(ForwardRef(Grid)) item={true}>
+        <Memo(ForwardRef(ArrowRightAltIcon)) className={{...}} />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid)) item={true}>
+    <TimeInput id=\\"StartAndEntInputId-end\\" value=\\"13:08\\" error={[undefined]} helperText=\\"\\" onChange={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} classes={{...}} InputLabelProps={{...}} margin=\\"dense\\" label=\\"End\\" isInvisible={false} variant=\\"outlined\\" InputProps={{...}} />
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>"
+`;

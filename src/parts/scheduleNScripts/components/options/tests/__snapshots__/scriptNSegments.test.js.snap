@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ScriptNSegments /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="row"
+  >
+    <div
+      class="col-md-12"
+    >
+      <div>
+        <ul
+          class="tabs tabUnderline nav nav-tabs"
+          role="tablist"
+        >
+          <li
+            class="nav-item"
+            role="presentation"
+          >
+            <button
+              aria-controls="sns-script-modal-tabs-tabpane-0"
+              aria-selected="true"
+              class="nav-link active"
+              data-rr-ui-event-key="0"
+              id="sns-script-modal-tabs-tab-0"
+              role="tab"
+              type="button"
+            >
+              <div
+                class="
+d-flex
+justify-content-center
+align-items-center
+j
+"
+              >
+                <div
+                  aria-label="BsTelephone"
+                  class="
+    d-flex
+    justify-content-center
+    align-items-center
+     fs-5
+    
+  "
+                  role="img"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 16 16"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  style="margin-left: 8px;"
+                >
+                   Call
+                </span>
+              </div>
+            </button>
+          </li>
+          <li
+            class="nav-item"
+            role="presentation"
+          >
+            <button
+              aria-controls="sns-script-modal-tabs-tabpane-1"
+              aria-selected="false"
+              class="nav-link"
+              data-rr-ui-event-key="1"
+              id="sns-script-modal-tabs-tab-1"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <div
+                class="
+d-flex
+justify-content-center
+align-items-center
+j
+"
+              >
+                <div
+                  aria-label="BsEnvelope"
+                  class="
+    d-flex
+    justify-content-center
+    align-items-center
+     fs-5
+    
+  "
+                  role="img"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 16 16"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  style="margin-left: 8px;"
+                >
+                   Email
+                </span>
+              </div>
+            </button>
+          </li>
+          <li
+            class="nav-item"
+            role="presentation"
+          >
+            <button
+              aria-controls="sns-script-modal-tabs-tabpane-2"
+              aria-disabled="true"
+              aria-selected="false"
+              class="nav-link disabled"
+              data-rr-ui-event-key="2"
+              disabled=""
+              id="sns-script-modal-tabs-tab-2"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              <div
+                class="
+d-flex
+justify-content-center
+align-items-center
+j
+"
+              >
+                <div
+                  aria-label="BsChatDots"
+                  class="
+    d-flex
+    justify-content-center
+    align-items-center
+     fs-5
+    
+  "
+                  role="img"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 16 16"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                    />
+                    <path
+                      d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  style="margin-left: 8px;"
+                >
+                   Text
+                </span>
+              </div>
+            </button>
+          </li>
+        </ul>
+        <div
+          class="tab-content"
+        >
+          <div
+            aria-labelledby="sns-script-modal-tabs-tab-0"
+            class="fade border border-top-0 rounded-bottom shadow-sm border-0 p-3  tab-pane active show"
+            id="sns-script-modal-tabs-tabpane-0"
+            role="tabpanel"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="form-col col"
+              >
+                <h5>
+                  Follow-Up Script: Member Day 166
+                </h5>
+                <form
+                  class=""
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="mb-3 col-sm-8"
+                    >
+                      <div>
+                        <div
+                          class="row"
+                        >
+                          <label
+                            class="form-label col-form-label col-form-label-lg col-lg-5"
+                            for="dynamicContent1"
+                          >
+                            Add Dynamic Content
+                          </label>
+                          <div
+                            class="col"
+                          >
+                            <select
+                              aria-label="Select Add Dynamic Content"
+                              class="form-select form-select-md"
+                              disabled=""
+                              id="dynamicContent1"
+                              required=""
+                              role="combobox"
+                              type="select"
+                            >
+                              <optgroup
+                                label="Default"
+                              >
+                                <option
+                                  value=""
+                                >
+                                  Select to Add
+                                </option>
+                              </optgroup>
+                              <optgroup
+                                label="Recipient"
+                              >
+                                <option
+                                  value="{{recipient-first}}"
+                                >
+                                  First Name
+                                </option>
+                              </optgroup>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-4"
+                    />
+                  </div>
+                  <div
+                    class="row"
+                    id="editortext"
+                  >
+                    <div
+                      class="readonlyScript mx-auto mb-2 p-2"
+                    >
+                      <p>
+                        This is test script
+                      </p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="sns-script-modal-tabs-tab-1"
+            class="fade border border-top-0 rounded-bottom shadow-sm border-0 p-3  tab-pane"
+            id="sns-script-modal-tabs-tabpane-1"
+            role="tabpanel"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="form-col col"
+              >
+                <h5>
+                  Follow-Up Script: Member Day 166
+                </h5>
+                <form
+                  class=""
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="mb-3 col-sm-8"
+                    >
+                      <div>
+                        <div
+                          class="row"
+                        >
+                          <label
+                            class="form-label col-form-label col-form-label-lg col-lg-5"
+                            for="dynamicContent2"
+                          >
+                            Add Dynamic Content
+                          </label>
+                          <div
+                            class="col"
+                          >
+                            <select
+                              aria-label="Select Add Dynamic Content"
+                              class="form-select form-select-md"
+                              disabled=""
+                              id="dynamicContent2"
+                              required=""
+                              role="combobox"
+                              type="select"
+                            >
+                              <optgroup
+                                label="Default"
+                              >
+                                <option
+                                  value=""
+                                >
+                                  Select to Add
+                                </option>
+                              </optgroup>
+                              <optgroup
+                                label="Recipient"
+                              >
+                                <option
+                                  value="{{recipient-first}}"
+                                >
+                                  First Name
+                                </option>
+                              </optgroup>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-4"
+                    />
+                  </div>
+                  <div
+                    class="row"
+                    id="editortext"
+                  >
+                    <div
+                      class="readonlyScript mx-auto mb-2 p-2"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="sns-script-modal-tabs-tab-2"
+            class="fade border border-top-0 rounded-bottom shadow-sm border-0 p-3  tab-pane"
+            id="sns-script-modal-tabs-tabpane-2"
+            role="tabpanel"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="form-col col"
+              >
+                <h5>
+                  Follow-Up Script: Member Day 166
+                </h5>
+                <form
+                  class=""
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="mb-3 col-sm-8"
+                    >
+                      <div>
+                        <div
+                          class="row"
+                        >
+                          <label
+                            class="form-label col-form-label col-form-label-lg col-lg-5"
+                            for="dynamicContent3"
+                          >
+                            Add Dynamic Content
+                          </label>
+                          <div
+                            class="col"
+                          >
+                            <select
+                              aria-label="Select Add Dynamic Content"
+                              class="form-select form-select-md"
+                              disabled=""
+                              id="dynamicContent3"
+                              required=""
+                              role="combobox"
+                              type="select"
+                            >
+                              <optgroup
+                                label="Default"
+                              >
+                                <option
+                                  value=""
+                                >
+                                  Select to Add
+                                </option>
+                              </optgroup>
+                              <optgroup
+                                label="Recipient"
+                              >
+                                <option
+                                  value="{{recipient-first}}"
+                                >
+                                  First Name
+                                </option>
+                              </optgroup>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-sm-4"
+                    />
+                  </div>
+                  <div
+                    class="row"
+                    id="editortext"
+                  >
+                    <div
+                      class="readonlyScript mx-auto mb-2 p-2"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

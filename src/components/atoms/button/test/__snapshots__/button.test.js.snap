@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should match snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="
+    d-flex
+    align-items-center
+    justify-content-center
+    flex-row
+    button
+    
+    undefined
+   btn btn-primary btn-md"
+    role="button"
+    type="button"
+  >
+    <span>
+      Button
+    </span>
+  </button>
+</DocumentFragment>
+`;
