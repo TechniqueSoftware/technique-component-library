@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render with minimal props 1`] = `
+"<TextField select={true} InputLabelProps={{...}} margin=\\"dense\\" variant=\\"outlined\\">
+  <WithStyles(ForwardRef(MenuItem))>
+    MockMenuItem1
+  </WithStyles(ForwardRef(MenuItem))>
+</TextField>"
+`;

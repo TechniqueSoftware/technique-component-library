@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconTooltip should render with minimal props 1`] = `
+"<WithStyles(ForwardRef(Tooltip)) placement=\\"bottom-start\\" title=\\"mock text\\" tabIndex={0}>
+  <Memo(ForwardRef(HelpRoundedIcon)) classes={{...}} component={{...}} />
+</WithStyles(ForwardRef(Tooltip))>"
+`;

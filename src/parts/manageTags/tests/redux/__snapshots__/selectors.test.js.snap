@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SELECTORS get tags 1`] = `
+Array [
+  Object {
+    "clubId": 659,
+    "tagId": 1,
+    "tagName": "Holidays",
+    "tagTemplates": Array [],
+  },
+  Object {
+    "clubId": 659,
+    "tagId": 2,
+    "tagName": "Special Offer",
+    "tagTemplates": Array [
+      Object {
+        "global": "0",
+        "tagId": 2,
+        "templateId": 12,
+      },
+      Object {
+        "global": "1",
+        "tagId": 2,
+        "templateId": 13,
+      },
+      Object {
+        "global": "1",
+        "tagId": 2,
+        "templateId": 14,
+      },
+    ],
+  },
+  Object {
+    "clubId": 659,
+    "tagId": 3,
+    "tagName": "Prospects",
+    "tagTemplates": Array [],
+  },
+  Object {
+    "clubId": 659,
+    "tagId": 4,
+    "tagName": "Members",
+    "tagTemplates": Array [],
+  },
+  Object {
+    "clubId": 659,
+    "tagId": 5,
+    "tagName": "PT",
+    "tagTemplates": Array [],
+  },
+]
+`;

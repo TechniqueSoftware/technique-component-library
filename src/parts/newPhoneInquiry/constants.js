@@ -1,0 +1,10 @@
+export const EVENT_ICONS = {
+  1: 'MEETING',
+  2: 'TRAINER',
+  3: 'GROUP_CLASS',
+  4: 'SALES_LEAD',
+  5: 'ORIENTATION',
+  6: 'ASSESSMENT',
+  7: 'GROUP_TRAINING',
+  8: 'GROUP_CLASS'
+}

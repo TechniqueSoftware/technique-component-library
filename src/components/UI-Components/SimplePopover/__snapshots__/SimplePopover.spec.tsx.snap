@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimplePopover should render with base props 1`] = `
+"<div>
+  <div onClick={[Function: handleClick]} data-test=\\"popover-target-wrapper\\">
+    <div>
+      Mock target component
+    </div>
+  </div>
+  <WithStyles(ForwardRef(Popover)) open={false} anchorEl={{...}} onClose={[Function: handleClose]} anchorOrigin={{...}} transformOrigin={{...}} />
+</div>"
+`;

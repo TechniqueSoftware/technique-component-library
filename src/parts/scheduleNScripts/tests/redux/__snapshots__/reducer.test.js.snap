@@ -1,0 +1,1038 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`REDUCER Followups errors 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "some error here",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Followups gets 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": true,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Followups sets 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Object {
+    "clubId": 659,
+    "followUpTypes": Array [
+      Object {
+        "followUpStatuses": Array [
+          Object {
+            "customClubLabel": null,
+            "groupName": "Prospect",
+            "hidden": "false",
+            "id": "4",
+            "name": "Active Guest",
+          },
+          Object {
+            "customClubLabel": null,
+            "groupName": "Prospect",
+            "hidden": "false",
+            "id": "5",
+            "name": "Expired Guest",
+          },
+        ],
+        "id": "1",
+        "name": "Membership",
+      },
+      Object {
+        "followUpStatuses": Array [
+          Object {
+            "customClubLabel": null,
+            "groupName": "PT Prospect",
+            "hidden": "false",
+            "id": "1",
+            "name": "Not Booked",
+          },
+        ],
+        "id": "2",
+        "name": "Personal Training",
+      },
+    ],
+  },
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Followups sets permission 1`] = `
+Object {
+  "canEditSchedules": true,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Followups succeeds 1`] = `
+Object {
+  "canEditSchedules": undefined,
+  "canEditScripts": undefined,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": undefined,
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Inner permissions sets inner permissions 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": true,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Scripts Edit Scripts open 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": undefined,
+    "data": undefined,
+  },
+}
+`;
+
+exports[`REDUCER Scripts Save Scripts  1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {
+    "data": undefined,
+  },
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Segments closes segment modal 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Segments sets segment attributes 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [
+      "a",
+    ],
+    "membership": Array [
+      "b",
+    ],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Segments sets segment data 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "followUpStatus": "11",
+    "followUpType": 1,
+    "isOpen": true,
+    "title": "title",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Segments sets segment error 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "Some error here",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Segments sets segments 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [
+    Object {
+      "createdAt": "2022-11-03T21:47:51Z",
+      "createdBy": 20,
+      "isDeleted": false,
+      "name": "Test Segment",
+      "segmentAttributes": Array [
+        Object {
+          "attributeId": 1936,
+          "attributeType": "Marketing Source",
+          "attributeValue": "Flyer",
+        },
+        Object {
+          "attributeId": 1940,
+          "attributeType": "Marketing Source",
+          "attributeValue": "Other",
+        },
+      ],
+      "segmentId": 1935,
+      "updatedAt": "2022-11-03T22:01:10Z",
+      "updatedBy": 20,
+    },
+    Object {
+      "createdAt": "2022-11-07T16:58:04Z",
+      "createdBy": 20,
+      "isDeleted": false,
+      "name": "Test Segment I",
+      "segmentAttributes": Array [
+        Object {
+          "attributeId": 1944,
+          "attributeType": "Marketing Source",
+          "attributeValue": "Drive By",
+        },
+      ],
+      "segmentId": 1943,
+      "updatedAt": "2022-11-07T16:58:04Z",
+      "updatedBy": 20,
+    },
+  ],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Snackbar closes snackbar 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Snackbar sets snackbar 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "Snackbar Msg",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints closes 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints delete 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": true,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints delete error 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "error": "There has been an error",
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints delete success 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Object {
+    "a": 1,
+    "b": 2,
+  },
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "DELETE_SUCCESS",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints edit 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "edit",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints edit error 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "error": "There has been an error",
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints edit touchpoint 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": true,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints edit touchpoint success 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "EDIT_SUCCESS",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints new 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": true,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints new error 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "error": "There has been an error",
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints new success 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Object {
+    "a": 1,
+    "b": 2,
+  },
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "NEW_SUCCESS",
+  "touchpointCrud": Object {
+    "action": "",
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;
+
+exports[`REDUCER Touchpoints opens 1`] = `
+Object {
+  "canEditSchedules": false,
+  "canEditScripts": false,
+  "copyInProcess": Object {},
+  "error": "",
+  "followups": Array [],
+  "innerPermissions": Object {
+    "automaticFollowUpAction": false,
+    "followUpSegmentsAction": false,
+  },
+  "loading": false,
+  "popupAlert": "",
+  "script": Object {},
+  "segmentAttributes": Object {
+    "marketing": Array [],
+    "membership": Array [],
+  },
+  "segmentList": Array [],
+  "segmentLocations": Array [],
+  "segmentModalData": Object {
+    "error": "",
+    "isOpen": false,
+    "title": "",
+  },
+  "segments": Array [],
+  "snackbar": "",
+  "touchpointCrud": Object {
+    "action": "menu",
+    "data": Object {
+      "b": 1,
+    },
+  },
+}
+`;

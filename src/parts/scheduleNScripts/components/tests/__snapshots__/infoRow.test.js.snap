@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Schedule and scripts <StatusSchedules /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="vstack minBreakpoint-xs"
+  >
+    <div
+      class="statusRow hstack gap-3 minBreakpoint-xs"
+    >
+      <div
+        class="titleContainer"
+      >
+        <p
+          class="fw-bold text-muted h5"
+        />
+      </div>
+      <div
+        class="
+  touchpoint
+  empty
+  
+  rounded
+  p-2
+  overflow-hidden
+  m-0
+  justify-content-center
+  align-items-center
+  "
+      >
+        <p
+          class="m-0 text-center fw-bold"
+        >
+          No touchpoints have been configured
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

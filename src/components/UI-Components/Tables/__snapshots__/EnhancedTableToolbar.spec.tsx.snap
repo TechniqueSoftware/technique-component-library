@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnhancedTableToolbar should render with minimal props 1`] = `
+"<WithStyles(ForwardRef(Toolbar)) className=\\"paddingLeft paddingRight\\">
+  <div className={{...}}>
+    <WithStyles(ForwardRef(Typography)) variant=\\"h4\\" id=\\"tableTitle\\">
+      mockTableTitle
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+  <div className={{...}} />
+  <div className={{...}} />
+</WithStyles(ForwardRef(Toolbar))>"
+`;
+
+exports[`EnhancedTableToolbar should should number selected when numSelected is greater than 0 1`] = `
+"<WithStyles(ForwardRef(Toolbar)) className=\\"paddingLeft paddingRight [object Object]\\">
+  <div className={{...}}>
+    <WithStyles(ForwardRef(Typography)) color=\\"inherit\\" variant=\\"subtitle1\\" data-test=\\"num-selected\\">
+      1
+       selected
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+  <div className={{...}} />
+  <div className={{...}}>
+    <WithStyles(ForwardRef(Tooltip)) title=\\"Delete\\">
+      <WithStyles(ForwardRef(IconButton)) aria-label=\\"delete\\">
+        <Memo(ForwardRef(DeleteIcon)) />
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </div>
+</WithStyles(ForwardRef(Toolbar))>"
+`;

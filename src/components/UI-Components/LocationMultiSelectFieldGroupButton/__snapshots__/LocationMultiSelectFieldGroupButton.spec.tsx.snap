@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationMultiSelectFieldGroupButton should render with minimal props 1`] = `"<MultiSelectFieldGroupButton id=\\"mockId\\" applyButton={false} clearButton={false} label=\\"Location\\" MultiSelectFieldGroupProps={{...}} allLabel=\\"All\\" disabled={false} />"`;
+
+exports[`LocationMultiSelectFieldGroupButton should render with minimal props 2`] = `
+Object {
+  "MultiSelectFieldGroupProps": Object {
+    "groupValueWrapperList": Array [
+      Object {
+        "groupId": "locations",
+        "values": Set {},
+      },
+      Object {
+        "groupId": "regions",
+        "values": Set {},
+      },
+    ],
+    "multiSelectOptionGroupDataList": Array [
+      Object {
+        "groupId": "regions",
+        "groupLabel": "Regions",
+        "multiSelectOptionDataList": Array [],
+      },
+      Object {
+        "groupId": "locations",
+        "groupLabel": "Locations",
+        "multiSelectOptionDataList": Array [],
+      },
+    ],
+    "onCheckboxGroupChange": [Function],
+    "showRadioGroup": false,
+  },
+  "allLabel": "All",
+  "applyButton": false,
+  "clearButton": false,
+  "disabled": false,
+  "id": "mockId",
+  "label": "Location",
+}
+`;

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SELECTORS canEditSchedules 1`] = `false`;
+
+exports[`SELECTORS canEditScripts 1`] = `false`;
+
+exports[`SELECTORS error 1`] = `"there is an error here"`;
+
+exports[`SELECTORS followups 1`] = `
+Array [
+  Object {
+    "id": "0",
+    "name": "Prospecting",
+    "statuses": Array [
+      Object {
+        "customClubLabel": null,
+        "displayName": "Active Guest",
+        "followUpTab": "0",
+        "groupName": "Prospect",
+        "hidden": "false",
+        "id": "4",
+        "name": "Active Guest",
+        "schedules": Array [
+          Object {
+            "autoEnabled": false,
+            "canEditSchedules": true,
+            "dayNum": 3,
+            "daysTillNext": 3,
+            "followUpSeqNum": 1,
+            "followUpStatus": 4,
+            "followUpType": 1,
+            "locationId": 4585,
+            "scripts": Array [
+              Object {
+                "actionType": 1,
+                "clubId": 659,
+                "followUpSeqNum": 10,
+                "followUpStatus": 5,
+                "followUpType": 1,
+                "script": "<p>Hi {{first-name}}! This is {{employee-first}} at {{club-name}}.</p>",
+              },
+            ],
+          },
+          Object {
+            "autoEnabled": false,
+            "canEditSchedules": true,
+            "dayNum": 5,
+            "daysTillNext": 2,
+            "followUpSeqNum": 2,
+            "followUpStatus": 4,
+            "followUpType": 1,
+            "locationId": 4585,
+          },
+        ],
+      },
+      Object {
+        "customClubLabel": null,
+        "displayName": "Expired Guest",
+        "followUpTab": "0",
+        "groupName": "Prospect",
+        "hidden": "false",
+        "id": "5",
+        "name": "Expired Guest",
+        "schedules": Array [
+          Object {
+            "autoEnabled": false,
+            "canEditSchedules": true,
+            "dayNum": 0,
+            "daysTillNext": 0,
+            "followUpSeqNum": 1,
+            "followUpStatus": 5,
+            "followUpType": 1,
+            "locationId": 4585,
+          },
+        ],
+      },
+    ],
+    "type": 1,
+  },
+]
+`;
+
+exports[`SELECTORS getStatus 1`] = `null`;
+
+exports[`SELECTORS loading 1`] = `true`;
+
+exports[`SELECTORS segmentAttributes 1`] = `
+Object {
+  "marketing": Array [],
+  "membership": Array [],
+}
+`;
+
+exports[`SELECTORS segments 1`] = `Array []`;
+
+exports[`SELECTORS touchpointCrud 1`] = `Object {}`;

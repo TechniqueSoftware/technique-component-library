@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GLOBAL REDUCER Club sets club data 1`] = `
+Object {
+  "club": Object {
+    "id": 1,
+    "name": "No mere mortals here",
+  },
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Data finished loading data 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Data gets data 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Data throws error getting data 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "This thing blew up",
+  "loading": false,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER DynamicTags sets dynamic tags 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [
+    Object {
+      "name": "Recipient",
+      "options": Array [
+        Object {
+          "name": "First Name",
+          "value": "{{recipient-first}}",
+        },
+        Object {
+          "name": "Last Name",
+          "value": "{{recipient-last}}",
+        },
+      ],
+    },
+  ],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Loading finished loading 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": false,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Locations selects location 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Locations sets location 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {
+    "locationId": 4559,
+    "name": "Valhalla",
+    "timeZone": "ValhallaTime",
+  },
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Locations sets location data 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [
+    Object {
+      "id": 1,
+      "name": "Valhalla",
+    },
+    Object {
+      "id": 2,
+      "name": "The Pit",
+    },
+  ],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Permission sets permission data 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [
+      Object {
+        "accessible": true,
+        "displayName": "First Permission",
+        "permissionEffect": "ALLOW",
+        "permissionName": "FirstPermission",
+      },
+    ],
+    "user": Array [
+      Object {
+        "accessible": true,
+        "displayName": "First Permission",
+        "permissionEffect": "ALLOW",
+        "permissionName": "FirstPermission",
+      },
+    ],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Permissions clears permissions 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {},
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER Permissions sets permissions 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [
+      Object {
+        "accessible": true,
+        "displayName": "First Permission",
+        "permissionEffect": "ALLOW",
+        "permissionName": "FirstPermission",
+      },
+    ],
+    "user": Array [
+      Object {
+        "accessible": true,
+        "displayName": "First Permission",
+        "permissionEffect": "ALLOW",
+        "permissionName": "FirstPermission",
+      },
+    ],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER User sets delegated user data 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {
+    "id": 10,
+    "name": "Steph Curry",
+  },
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {},
+}
+`;
+
+exports[`GLOBAL REDUCER User sets user data 1`] = `
+Object {
+  "club": Object {},
+  "delegated": Object {},
+  "dynamicTags": Array [],
+  "error": "",
+  "loading": true,
+  "locations": Array [],
+  "permissions": Object {
+    "feature": Array [],
+    "user": Array [],
+  },
+  "selectedLocation": Object {},
+  "user": Object {
+    "id": 1,
+    "name": "Adam Ondra",
+  },
+}
+`;

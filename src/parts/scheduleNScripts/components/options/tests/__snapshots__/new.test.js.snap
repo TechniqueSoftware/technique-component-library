@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<New /> should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class=""
+  >
+    <div
+      class="list-group list-group-flush"
+    >
+      <div
+        class="border-0 d-flex flex-row fs-5 align-items-center list-group-item"
+      >
+        <div
+          class="form-check form-check-inline"
+        >
+          <input
+            class="form-check-input"
+            name="immediate"
+            type="radio"
+          />
+          <label
+            class="form-check-label"
+            title=""
+          >
+            Immediate
+          </label>
+        </div>
+      </div>
+      <div
+        class="border-0 d-flex flex-row fs-5 align-items-center list-group-item"
+      >
+        <div
+          class="form-check form-check-inline"
+        >
+          <input
+            checked=""
+            class="form-check-input"
+            name="day"
+            type="radio"
+          />
+          <label
+            class="form-check-label"
+            title=""
+          >
+            Day
+          </label>
+        </div>
+        <div>
+          <div
+            class=""
+          >
+            <input
+              class="form-control"
+              id="day-touchpoint"
+              min="1"
+              name="day-touchpoint"
+              required=""
+              type="number"
+              value="1"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="border-0 list-group-item"
+      >
+        <button
+          class="
+    d-flex
+    align-items-center
+    justify-content-center
+    flex-row
+    button
+    
+    ms-auto
+   btn btn-primary btn-md"
+          role="button"
+          type="button"
+        >
+          <span>
+            Save
+          </span>
+        </button>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;

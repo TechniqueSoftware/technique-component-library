@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CUIC Utilities createCUICStory should generate a CUICStory from configuration 1`] = `
+Object {
+  "context": Object {
+    "notes": Object {
+      "markdown": "mockNotesFilePath",
+    },
+  },
+  "name": "mockName",
+  "render": [Function],
+}
+`;
+
+exports[`CUIC Utilities createCUICStory should generate a CUICStory from configuration: renderResult 1`] = `
+<span>
+  test
+</span>
+`;

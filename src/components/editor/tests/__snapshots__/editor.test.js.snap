@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Editor> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="editor "
+  >
+    <div
+      class="redactor-box redactor-blur redactor-styles-on redactor-toolbar-on"
+      dir="ltr"
+    >
+      <div
+        class="redactor-toolbar-wrapper"
+      >
+        <div
+          class="redactor-toolbar"
+          style="display: block;"
+        >
+          <a
+            alt="HTML"
+            aria-label="HTML"
+            class="re-button re-html re-button-icon"
+            data-re-icon="true"
+            data-re-name="html"
+            href="#"
+            rel="html"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-html"
+            />
+          </a>
+          <a
+            alt="Format"
+            aria-label="Format"
+            class="re-button re-format re-button-icon"
+            data-dropdown="true"
+            data-re-icon="true"
+            data-re-name="format"
+            href="#"
+            rel="format"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-format"
+            />
+          </a>
+          <a
+            alt="Bold"
+            aria-label="Bold"
+            class="re-button re-bold re-button-icon"
+            data-re-icon="true"
+            data-re-name="bold"
+            href="#"
+            rel="bold"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-bold"
+            />
+          </a>
+          <a
+            alt="Italic"
+            aria-label="Italic"
+            class="re-button re-italic re-button-icon"
+            data-re-icon="true"
+            data-re-name="italic"
+            href="#"
+            rel="italic"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-italic"
+            />
+          </a>
+          <a
+            alt="Strikethrough"
+            aria-label="Strikethrough"
+            class="re-button re-deleted re-button-icon"
+            data-re-icon="true"
+            data-re-name="deleted"
+            href="#"
+            rel="deleted"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-deleted"
+            />
+          </a>
+          <a
+            alt="Lists"
+            aria-label="Lists"
+            class="re-button re-lists re-button-icon"
+            data-dropdown="true"
+            data-re-icon="true"
+            data-re-name="lists"
+            href="#"
+            rel="lists"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-lists"
+            />
+          </a>
+          <a
+            alt="Line"
+            aria-label="Line"
+            class="re-button re-line re-button-icon"
+            data-re-icon="true"
+            data-re-name="line"
+            href="#"
+            rel="line"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-line"
+            />
+          </a>
+          <a
+            alt="Image"
+            aria-label="Image"
+            class="re-button re-image re-button-icon"
+            data-re-icon="true"
+            data-re-name="image"
+            href="#"
+            rel="image"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-image"
+            />
+          </a>
+          <a
+            alt="Table"
+            aria-label="Table"
+            class="re-button re-table re-button-icon"
+            data-dropdown="true"
+            data-re-icon="true"
+            data-re-name="table"
+            href="#"
+            rel="table"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-table"
+            />
+          </a>
+          <a
+            alt="Link"
+            aria-label="Link"
+            class="re-button re-link re-button-icon"
+            data-dropdown="true"
+            data-re-icon="true"
+            data-re-name="link"
+            href="#"
+            rel="link"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-link"
+            />
+          </a>
+          <a
+            alt="Align"
+            aria-label="Align"
+            class="re-button re-alignment re-button-icon"
+            data-dropdown="true"
+            data-re-icon="true"
+            data-re-name="alignment"
+            href="#"
+            rel="alignment"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-alignment"
+            />
+          </a>
+          <a
+            alt="Font"
+            aria-label="Font"
+            class="re-button re-fontfamily re-button-icon"
+            data-dropdown="true"
+            data-re-icon="true"
+            data-re-name="fontfamily"
+            href="#"
+            rel="fontfamily"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-fontfamily"
+            />
+          </a>
+          <a
+            alt="Size"
+            aria-label="Size"
+            class="re-button re-fontsize re-button-icon"
+            data-dropdown="true"
+            data-re-icon="true"
+            data-re-name="fontsize"
+            href="#"
+            rel="fontsize"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-fontsize"
+            />
+          </a>
+          <a
+            alt="Text Color"
+            aria-label="Text Color"
+            class="re-button re-fontcolor re-button-icon"
+            data-dropdown="true"
+            data-re-icon="true"
+            data-re-name="fontcolor"
+            href="#"
+            rel="fontcolor"
+            role="button"
+            tabindex="-1"
+          >
+            <i
+              class="re-icon-fontcolor"
+            />
+          </a>
+        </div>
+      </div>
+      <span
+        aria-hidden="false"
+        class="redactor-voice-label"
+        id="redactor-voice-0"
+      >
+        Rich text editor
+      </span>
+      <div
+        aria-labelledby="redactor-voice-0"
+        class="redactor-styles redactor-in redactor-in-0"
+        contenteditable="true"
+        dir="ltr"
+        role="presentation"
+      >
+        <p />
+      </div>
+      <textarea
+        aria-label="mock-wrapper"
+        class="redactor-source"
+        data-redactor-uuid="0"
+        domtargetshow=""
+        id="mock-wrapper"
+        name="mock-wrapper"
+        style="display: none;"
+      />
+      <ul
+        class="redactor-statusbar"
+        dir="ltr"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
