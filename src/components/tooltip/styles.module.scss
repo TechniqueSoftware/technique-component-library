@@ -1,0 +1,22 @@
+.tooltip {
+     background-color: var(--bs-dark);
+      width: 180px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transform: translateX(-50%);
+      z-index: 13;
+      
+      :global .tooltip-arrow::before
+      {
+        top: 5px;
+        left: -6px;
+        border-width: 0.6rem 0.6rem 0.6rem;
+        border-top-color: var(--bs-dark);
+        opacity: 0.9;
+        transform: rotate(138deg);
+      }
+  
+      :global .tooltip-inner{
+        background-color: var(--bs-dark);
+      }
+ }

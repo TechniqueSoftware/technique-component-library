@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select/> should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="form-label"
+      for="selectName"
+    >
+      Select Label
+    </label>
+    <select
+      aria-label="Select Select Label"
+      class="form-select"
+      id="selectName"
+      required=""
+      role="combobox"
+      type="select"
+    >
+      <option
+        value="1"
+      >
+        Option1
+      </option>
+      <option
+        value="2"
+      >
+        Option2
+      </option>
+      <option
+        value="3"
+      >
+        Option3
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
