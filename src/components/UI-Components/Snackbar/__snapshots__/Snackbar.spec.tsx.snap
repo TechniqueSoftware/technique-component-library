@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snackbar should render with all props 1`] = `
+"<WithStyles(ForwardRef(Snackbar)) anchorOrigin={{...}} open={true} autoHideDuration={5000} onClose={[Function: onClose]}>
+  <ForwardRef id=\\"mockId\\" message=\\"Archived\\" onUndo={[Function: onUndo]} variant=\\"info\\" className=\\"super-classname\\" aria-describe-id=\\"id-9247924\\" />
+</WithStyles(ForwardRef(Snackbar))>"
+`;
+
+exports[`Snackbar should render with minimal 1`] = `
+"<WithStyles(ForwardRef(Snackbar)) anchorOrigin={{...}} open={true} autoHideDuration={5000} onClose={[undefined]}>
+  <ForwardRef id=\\"mockId\\" message=\\"Archived\\" onUndo={[undefined]} variant=\\"info\\" className={[undefined]} aria-describe-id=\\"snackbar\\" />
+</WithStyles(ForwardRef(Snackbar))>"
+`;

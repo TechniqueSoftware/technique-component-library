@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="fade alert alert-success show"
+    role="alert"
+  >
+    <p>
+      <strong>
+        <a
+          ;=""
+          class="alert-link"
+          false;"=""
+          href="#"
+          onclick="delegate(undefined, '/action/Dashboard')"
+          return=""
+          role="button"
+          tabindex="0"
+        >
+          John Doe
+        </a>
+         has been added!
+      </strong>
+    </p>
+  </div>
+</DocumentFragment>
+`;

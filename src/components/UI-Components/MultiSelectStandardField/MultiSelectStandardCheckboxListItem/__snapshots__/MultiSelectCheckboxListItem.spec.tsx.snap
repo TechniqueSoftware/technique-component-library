@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelectCheckboxListItem should render with minimal props 1`] = `
+"<WithStyles(ForwardRef(ListItem)) dense={true}>
+  <WithStyles(ForwardRef(FormControlLabel)) name=\\"mockName\\" disabled={false} label=\\"mockLabelString\\" value=\\"mockValue\\" checked={false} control={{...}} />
+</WithStyles(ForwardRef(ListItem))>"
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PosButton> should match snapshot 1`] = `
+<DocumentFragment>
+  <iframe
+    height="600px"
+    id="asfFrame"
+    src="https://www.asfint.com/View/point-of-sale?customer=anonymous"
+    title="ASF"
+    width="100%"
+  />
+</DocumentFragment>
+`;

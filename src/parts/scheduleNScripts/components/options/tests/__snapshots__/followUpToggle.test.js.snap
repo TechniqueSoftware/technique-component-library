@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FollowUpToggle /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="text-center"
+  >
+    <div
+      class="mt-3 btngroup btn-group"
+      role="group"
+    >
+      <input
+        autocomplete="off"
+        checked=""
+        class="btn-check"
+        disabled=""
+        id="radio-manual"
+        name="manual-auto"
+        type="radio"
+        value="manual"
+      />
+      <label
+        class="disabled btn btn-outline-primary"
+        for="radio-manual"
+        tabindex="0"
+      >
+        Manual
+      </label>
+      <input
+        autocomplete="off"
+        class="btn-check"
+        disabled=""
+        id="radio-auto"
+        name="manual-auto"
+        type="radio"
+        value="auto"
+      />
+      <label
+        class="disabled btn btn-outline-primary"
+        for="radio-auto"
+        tabindex="0"
+      >
+        Automatic
+      </label>
+    </div>
+  </div>
+</DocumentFragment>
+`;

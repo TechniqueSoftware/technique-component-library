@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GLOBAL ACTIONS Club clears 1`] = `
+Object {
+  "type": "global/CLUB/CLEAR",
+}
+`;
+
+exports[`GLOBAL ACTIONS Club errors 1`] = `
+Object {
+  "payload": Object {
+    "error": "some error here",
+  },
+  "type": "global/CLUB/ERROR",
+}
+`;
+
+exports[`GLOBAL ACTIONS Club gets 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/CLUB/GET",
+}
+`;
+
+exports[`GLOBAL ACTIONS Club sets 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/CLUB/SET",
+}
+`;
+
+exports[`GLOBAL ACTIONS Club succeeds 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/CLUB/SUCCESS",
+}
+`;
+
+exports[`GLOBAL ACTIONS Data clears 1`] = `
+Object {
+  "type": "global/DATA/CLEAR",
+}
+`;
+
+exports[`GLOBAL ACTIONS Data errors 1`] = `
+Object {
+  "payload": Object {
+    "error": "some error here",
+  },
+  "type": "global/DATA/ERROR",
+}
+`;
+
+exports[`GLOBAL ACTIONS Data gets 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/DATA/GET",
+}
+`;
+
+exports[`GLOBAL ACTIONS Data succeeds 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/DATA/SUCCESS",
+}
+`;
+
+exports[`GLOBAL ACTIONS Loading finishes 1`] = `
+Object {
+  "type": "global/LOADING/FINISHED",
+}
+`;
+
+exports[`GLOBAL ACTIONS Location clears 1`] = `
+Object {
+  "type": "global/LOCATIONS/CLEAR",
+}
+`;
+
+exports[`GLOBAL ACTIONS Location errors 1`] = `
+Object {
+  "payload": Object {
+    "error": "some error here",
+  },
+  "type": "global/LOCATIONS/ERROR",
+}
+`;
+
+exports[`GLOBAL ACTIONS Location gets 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/LOCATIONS/GET",
+}
+`;
+
+exports[`GLOBAL ACTIONS Location selects 1`] = `
+Object {
+  "payload": Object {
+    "data": Object {
+      "clubId": undefined,
+      "locationId": 1974,
+    },
+  },
+  "type": "global/LOCATIONS/SELECT",
+}
+`;
+
+exports[`GLOBAL ACTIONS Location sets 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/LOCATIONS/SET_ALL",
+}
+`;
+
+exports[`GLOBAL ACTIONS Location sets 2`] = `
+Object {
+  "payload": Object {
+    "data": Object {
+      "name": "Valhalla",
+      "value": "1",
+    },
+  },
+  "type": "global/LOCATIONS/SET",
+}
+`;
+
+exports[`GLOBAL ACTIONS Location succeeds 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/LOCATIONS/SUCCESS",
+}
+`;
+
+exports[`GLOBAL ACTIONS User clears 1`] = `
+Object {
+  "type": "global/USER/CLEAR",
+}
+`;
+
+exports[`GLOBAL ACTIONS User errors 1`] = `
+Object {
+  "payload": Object {
+    "error": "some error here",
+  },
+  "type": "global/USER/ERROR",
+}
+`;
+
+exports[`GLOBAL ACTIONS User gets 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/USER/GET",
+}
+`;
+
+exports[`GLOBAL ACTIONS User sets 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/USER/SET_LOGGED_IN",
+}
+`;
+
+exports[`GLOBAL ACTIONS User succeeds 1`] = `
+Object {
+  "payload": Object {
+    "data": "some data here",
+  },
+  "type": "global/USER/SUCCESS",
+}
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectWithNoMenu should onClick method when keydown is enter key (13) 1`] = `
+"<Select id=\\"mockId\\" open={false} value=\\"mockValue\\" label=\\"mockLabel\\" onClick={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [ [ { keyCode: 13, which: 13 } ] ], instances: [ { id: 'mockId', open: false, value: 'mockValue', label: 'mockLabel', onClick: [Circular] } ], invocationCallOrder: [ 1 ], results: [ Object [Object: null prototype] { isThrow: false, value: undefined } ] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} onKeyDown={[Function: handleKeyDown]} SelectProps={{...}}>
+  <WithStyles(ForwardRef(MenuItem)) value=\\"mockValue\\">
+    mockValue
+  </WithStyles(ForwardRef(MenuItem))>
+</Select>"
+`;
+
+exports[`SelectWithNoMenu should render with minimal props 1`] = `
+"<Select id=\\"mockId\\" open={false} value=\\"mockValue\\" label=\\"mockLabel\\" onClick={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} onKeyDown={[Function: handleKeyDown]} SelectProps={{...}}>
+  <WithStyles(ForwardRef(MenuItem)) value=\\"mockValue\\">
+    mockValue
+  </WithStyles(ForwardRef(MenuItem))>
+</Select>"
+`;

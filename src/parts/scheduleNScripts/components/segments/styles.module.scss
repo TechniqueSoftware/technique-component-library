@@ -1,0 +1,56 @@
+
+.canvas {
+  width:60% !important;
+
+  // Overrided from styles.module.scss
+  transform: none !important;
+  position: absolute;
+  left: 40%;
+}
+
+.buttonsGroup {
+  display: flex;
+  justify-content: center;
+  align-Items: center;
+}
+
+.groupItem{
+  position: unset !important;
+  background-color: rgba(var(--bs-light-rgb)) !important;
+  border: none !important;
+}
+
+.copySegmentsHeader {
+  align-items: center;
+  background: none !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #BEBEBE !important;
+
+  .selectDestination{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+
+    .multiselectContent{
+      max-width: 95% !important;
+    }
+  }
+
+  .disabledSelect{
+    pointer-events: none;
+  }
+}
+
+.copySegmentsText {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buttonCopySegments{
+  margin-bottom: 5%;
+}
+

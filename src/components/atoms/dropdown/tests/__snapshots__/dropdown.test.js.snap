@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown/> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="w-100"
+  >
+    <label
+      class="fs-6 form-label"
+    >
+      Dropdown Label
+    </label>
+    <div
+      class="w-100 dropdown"
+    >
+      <button
+        aria-expanded="false"
+        class="dropdownToggle dropdown-toggle btn btn-grey btn-md"
+        id="selectName"
+        type="button"
+      >
+        Option1
+      </button>
+    </div>
+    <i>
+      Disclaimer
+    </i>
+  </div>
+</DocumentFragment>
+`;

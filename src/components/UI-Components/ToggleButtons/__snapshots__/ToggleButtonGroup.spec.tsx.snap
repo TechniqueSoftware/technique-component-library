@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleButtonGroup should render with base props 1`] = `
+"<WithStyles(ForwardRef(ToggleButton)) value=\\"left\\" exclusive={true} size=\\"small\\">
+  <ToggleButton value=\\"left\\" aria-label=\\"left aligned\\">
+    <Memo(ForwardRef(FormatAlignLeftIcon)) />
+  </ToggleButton>
+</WithStyles(ForwardRef(ToggleButton))>"
+`;

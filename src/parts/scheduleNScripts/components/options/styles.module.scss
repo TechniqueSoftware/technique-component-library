@@ -1,0 +1,35 @@
+.editCard {
+  width: 230px;
+  height: 290px;
+
+
+  > .card {
+    > * button {
+      &:hover {
+        color: var(--bs-primary);
+        > * svg {
+          color: var(--bs-primary);
+        }
+      }
+    }
+  }
+}
+
+.canvas {
+  width:73% !important;
+  
+  .editCardScript {
+    border: none !important;
+      
+    .btnContainer {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.readonlyScript {
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+  width: 98%;
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SELECTORS gets club 1`] = `
+Object {
+  "id": 1,
+  "name": "Jedi Order",
+  "timeZone": "JediTime",
+}
+`;
+
+exports[`SELECTORS gets error 1`] = `"Error here"`;
+
+exports[`SELECTORS gets loading 1`] = `false`;
+
+exports[`SELECTORS gets locations 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "name": "Hoth",
+  },
+  Object {
+    "id": 2,
+    "name": "Tatooine",
+  },
+]
+`;
+
+exports[`SELECTORS gets selected location 1`] = `Object {}`;
+
+exports[`SELECTORS gets user 1`] = `
+Object {
+  "id": 1,
+  "name": "Luke Skywalker",
+  "role": Object {
+    "id": 3,
+    "name": "Padawan",
+  },
+}
+`;

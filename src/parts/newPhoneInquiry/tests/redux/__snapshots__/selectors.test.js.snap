@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SELECTORS get form 1`] = `
+Object {
+  "contact": Object {
+    "error": "",
+    "label": "With",
+    "relatedField": null,
+    "required": false,
+    "type": "select",
+    "validated": true,
+    "value": Object {
+      "availability": Array [],
+      "name": "location managerfive",
+      "value": 136951500,
+    },
+  },
+  "date": Object {
+    "error": "",
+    "label": "Date",
+    "relatedField": null,
+    "required": false,
+    "type": "date",
+    "validated": true,
+    "value": "2022-10-17",
+  },
+  "email": Object {
+    "error": "",
+    "label": "Email",
+    "relatedField": "mobilePhone",
+    "required": false,
+    "type": "email",
+    "validated": true,
+    "value": "testappttime120@aol.com",
+  },
+  "firstName": Object {
+    "error": "",
+    "label": "First Name",
+    "relatedField": null,
+    "required": true,
+    "type": "text",
+    "validated": true,
+    "value": "Test",
+  },
+  "lastName": Object {
+    "error": "",
+    "label": "Last Name",
+    "relatedField": null,
+    "required": true,
+    "type": "text",
+    "validated": true,
+    "value": "ApptTime120",
+  },
+  "locationSelect": Object {
+    "error": "",
+    "label": "Location",
+    "relatedField": null,
+    "required": true,
+    "type": "select",
+    "validated": true,
+    "value": Object {
+      "name": "Philadelphia, PA",
+      "value": 4559,
+    },
+  },
+  "mobilePhone": Object {
+    "error": "",
+    "label": "Phone",
+    "relatedField": "email",
+    "required": false,
+    "type": "phone",
+    "validated": true,
+    "value": "",
+  },
+  "time": Object {
+    "error": "",
+    "label": "Time",
+    "relatedField": null,
+    "required": false,
+    "type": "select",
+    "validated": true,
+    "value": Object {
+      "name": "12:00 AM",
+      "value": "2022-10-17T16:00:00Z",
+    },
+  },
+}
+`;
+
+exports[`SELECTORS get form response 1`] = `Object {}`;

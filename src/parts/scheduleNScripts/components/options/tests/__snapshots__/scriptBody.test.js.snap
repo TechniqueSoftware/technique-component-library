@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ScriptBody /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="row"
+  >
+    <div
+      class="form-col col"
+    >
+      <h5>
+        Follow-Up Script: Member Day 166
+      </h5>
+      <form
+        class=""
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="mb-3 col-sm-8"
+          >
+            <div>
+              <div
+                class="row"
+              >
+                <label
+                  class="form-label col-form-label col-form-label-lg col-lg-5"
+                  for="dynamicContent1"
+                >
+                  Add Dynamic Content
+                </label>
+                <div
+                  class="col"
+                >
+                  <select
+                    aria-label="Select Add Dynamic Content"
+                    class="form-select form-select-md"
+                    id="dynamicContent1"
+                    required=""
+                    role="combobox"
+                    type="select"
+                  >
+                    <optgroup
+                      label="Recipient"
+                    >
+                      <option
+                        value="{{recipient-first}}"
+                      >
+                        First Name
+                      </option>
+                      <option
+                        value="{{recipient-last}}"
+                      >
+                        Last Name
+                      </option>
+                    </optgroup>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-4"
+          />
+        </div>
+        <div
+          class="row"
+          id="editortext"
+        >
+          <div
+            class="editor "
+          >
+            <div
+              class="redactor-box redactor-blur redactor-styles-on redactor-toolbar-on"
+              dir="ltr"
+            >
+              <div
+                class="redactor-toolbar-wrapper"
+              >
+                <div
+                  class="redactor-toolbar"
+                  style="display: block;"
+                >
+                  <a
+                    alt="HTML"
+                    aria-label="HTML"
+                    class="re-button re-html re-button-icon"
+                    data-re-icon="true"
+                    data-re-name="html"
+                    href="#"
+                    rel="html"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-html"
+                    />
+                  </a>
+                  <a
+                    alt="Format"
+                    aria-label="Format"
+                    class="re-button re-format re-button-icon"
+                    data-dropdown="true"
+                    data-re-icon="true"
+                    data-re-name="format"
+                    href="#"
+                    rel="format"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-format"
+                    />
+                  </a>
+                  <a
+                    alt="Bold"
+                    aria-label="Bold"
+                    class="re-button re-bold re-button-icon"
+                    data-re-icon="true"
+                    data-re-name="bold"
+                    href="#"
+                    rel="bold"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-bold"
+                    />
+                  </a>
+                  <a
+                    alt="Italic"
+                    aria-label="Italic"
+                    class="re-button re-italic re-button-icon"
+                    data-re-icon="true"
+                    data-re-name="italic"
+                    href="#"
+                    rel="italic"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-italic"
+                    />
+                  </a>
+                  <a
+                    alt="Strikethrough"
+                    aria-label="Strikethrough"
+                    class="re-button re-deleted re-button-icon"
+                    data-re-icon="true"
+                    data-re-name="deleted"
+                    href="#"
+                    rel="deleted"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-deleted"
+                    />
+                  </a>
+                  <a
+                    alt="Lists"
+                    aria-label="Lists"
+                    class="re-button re-lists re-button-icon"
+                    data-dropdown="true"
+                    data-re-icon="true"
+                    data-re-name="lists"
+                    href="#"
+                    rel="lists"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-lists"
+                    />
+                  </a>
+                  <a
+                    alt="Line"
+                    aria-label="Line"
+                    class="re-button re-line re-button-icon"
+                    data-re-icon="true"
+                    data-re-name="line"
+                    href="#"
+                    rel="line"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-line"
+                    />
+                  </a>
+                  <a
+                    alt="Image"
+                    aria-label="Image"
+                    class="re-button re-image re-button-icon"
+                    data-re-icon="true"
+                    data-re-name="image"
+                    href="#"
+                    rel="image"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-image"
+                    />
+                  </a>
+                  <a
+                    alt="Table"
+                    aria-label="Table"
+                    class="re-button re-table re-button-icon"
+                    data-dropdown="true"
+                    data-re-icon="true"
+                    data-re-name="table"
+                    href="#"
+                    rel="table"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-table"
+                    />
+                  </a>
+                  <a
+                    alt="Link"
+                    aria-label="Link"
+                    class="re-button re-link re-button-icon"
+                    data-dropdown="true"
+                    data-re-icon="true"
+                    data-re-name="link"
+                    href="#"
+                    rel="link"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-link"
+                    />
+                  </a>
+                  <a
+                    alt="Align"
+                    aria-label="Align"
+                    class="re-button re-alignment re-button-icon"
+                    data-dropdown="true"
+                    data-re-icon="true"
+                    data-re-name="alignment"
+                    href="#"
+                    rel="alignment"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-alignment"
+                    />
+                  </a>
+                  <a
+                    alt="Font"
+                    aria-label="Font"
+                    class="re-button re-fontfamily re-button-icon"
+                    data-dropdown="true"
+                    data-re-icon="true"
+                    data-re-name="fontfamily"
+                    href="#"
+                    rel="fontfamily"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-fontfamily"
+                    />
+                  </a>
+                  <a
+                    alt="Size"
+                    aria-label="Size"
+                    class="re-button re-fontsize re-button-icon"
+                    data-dropdown="true"
+                    data-re-icon="true"
+                    data-re-name="fontsize"
+                    href="#"
+                    rel="fontsize"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-fontsize"
+                    />
+                  </a>
+                  <a
+                    alt="Text Color"
+                    aria-label="Text Color"
+                    class="re-button re-fontcolor re-button-icon"
+                    data-dropdown="true"
+                    data-re-icon="true"
+                    data-re-name="fontcolor"
+                    href="#"
+                    rel="fontcolor"
+                    role="button"
+                    tabindex="-1"
+                  >
+                    <i
+                      class="re-icon-fontcolor"
+                    />
+                  </a>
+                </div>
+              </div>
+              <span
+                aria-hidden="false"
+                class="redactor-voice-label"
+                id="redactor-voice-0"
+              >
+                Rich text editor
+              </span>
+              <div
+                aria-labelledby="redactor-voice-0"
+                class="redactor-styles redactor-in redactor-in-0"
+                contenteditable="true"
+                dir="ltr"
+                role="presentation"
+              >
+                <p>
+                  This is a call test script
+                </p>
+              </div>
+              <textarea
+                aria-label="scriptBody-1"
+                class="redactor-source"
+                data-redactor-uuid="0"
+                domtargetshow=""
+                id="scriptBody-1"
+                name="scriptBody-1"
+                style="display: none;"
+              >
+                &lt;p&gt;This is a call test script&lt;/p&gt;
+              </textarea>
+              <ul
+                class="redactor-statusbar"
+                dir="ltr"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-3 row"
+        >
+          <div
+            class="col-sm-12"
+          >
+            <div
+              class="btnContainer"
+            >
+              <button
+                class="
+    d-flex
+    align-items-center
+    justify-content-center
+    flex-row
+    button
+    
+    m-1 saveBtn
+   btn btn-outline-primary btn-lg"
+                role="button"
+                type="button"
+              >
+                <span>
+                  Cancel
+                </span>
+              </button>
+              <button
+                class="
+    d-flex
+    align-items-center
+    justify-content-center
+    flex-row
+    button
+    
+    m-1 saveBtn
+   btn btn-primary btn-lg"
+                role="button"
+                type="button"
+              >
+                <span>
+                  Save
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
