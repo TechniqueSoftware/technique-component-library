@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TILocationSelect/> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-3"
+  >
+    <div>
+      <label
+        class="form-label"
+        for="location"
+      >
+        Location
+      </label>
+      <select
+        aria-label="Select Location"
+        class="form-select"
+        disabled=""
+        id="location"
+        required=""
+        role="combobox"
+        type="select"
+      >
+        <option
+          value="001"
+        >
+          Option1
+        </option>
+        <option
+          value="002"
+        >
+          Option2
+        </option>
+        <option
+          value="4585"
+        >
+          Loc 4585
+        </option>
+      </select>
+    </div>
+  </div>
+</DocumentFragment>
+`;

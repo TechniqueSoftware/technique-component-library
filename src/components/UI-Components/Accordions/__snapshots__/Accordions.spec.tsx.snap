@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordions should render with all props 1`] = `
+"<ContextProvider value={{...}}>
+  <Accordions className=\\"class-name\\" mode=\\"accordion\\" panels={{...}} />
+</ContextProvider>"
+`;
+
+exports[`Accordions should render with base props 1`] = `
+"<ContextProvider value={{...}}>
+  <Accordions panels={{...}} />
+</ContextProvider>"
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup should render with minimal props 1`] = `
+"<WithStyles(ForwardRef(FormControl)) component=\\"fieldset\\">
+  <WithStyles(ForwardRef(FormLabel)) component=\\"legend\\">
+    mockLabel
+  </WithStyles(ForwardRef(FormLabel))>
+  <ForwardRef(RadioGroup) aria-label=\\"mockLabel\\" name=\\"mockName\\" value=\\"mockValue\\" onChange={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+    <WithStyles(ForwardRef(FormControlLabel)) value=\\"1\\" label=\\"foo\\" control={{...}} />
+    <WithStyles(ForwardRef(FormControlLabel)) value=\\"2\\" label=\\"bar\\" control={{...}} />
+    <WithStyles(ForwardRef(FormControlLabel)) value=\\"3\\" label=\\"zap\\" disabled={true} control={{...}} />
+  </ForwardRef(RadioGroup)>
+</WithStyles(ForwardRef(FormControl))>"
+`;

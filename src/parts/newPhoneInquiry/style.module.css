@@ -1,0 +1,76 @@
+.inqButton {
+  margin-right: 3.2rem;
+}
+
+.inqButton > button[role="button"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inqButton [role="img"] {
+  padding-right: 8px;
+}
+
+.relatedFieldsContainer {
+	position: relative;
+}
+
+.relatedFieldsContainer::before,
+.relatedFieldsContainer::after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: #000;
+	right: -0.5rem;
+	width: 5%;
+}
+
+.relatedFieldsContainer::before {
+	top: 10%;
+}
+
+.relatedFieldsContainer::after {
+	bottom: -10%;
+}
+
+.relatedFields::before {
+	content: '';
+	position: absolute;
+	right: -0.5rem;
+	top: 10%;
+	width: 1px;
+	background-color: #000;
+	height: 100%;
+}
+
+.relatedFields::after {
+	content: '*';
+	background-color: white;
+	position: absolute;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	line-height: 1;
+	right: calc(-0.5rem - 10px);
+	top: 52.5%;
+	width: 20px;
+	height: 20px;
+}
+
+.inqFooter {
+	width: 100%;
+}
+
+.inqFooter .btnContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.inqFooter .saveBtn {
+	margin-left: 0.5rem;
+}
+
+:global(.is-invalid) ~ :global(.invalid-feedback) {
+	display: block;
+}

@@ -1,0 +1,50 @@
+div.toggleCheckWrapper {
+  position: relative;
+  display: inline-block;
+  width: 2.2rem;
+  height: 1.3rem;
+  margin-right: 0.8rem;
+}
+
+input.toggleCheckInput {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggleCheckSlider {
+  border-radius: 1.2rem;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid var(--bs-gray-700);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggleCheckSlider:before {
+  border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  left: 0.1rem;
+  bottom: 0.1rem;
+  background-color: var(--bs-primary);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .toggleCheckSlider {
+  background-color: var(--bs-primary);
+}
+
+input:checked + .toggleCheckSlider:before {
+  background-color: var(--bs-white);
+  -webkit-transform: translateX(0.85rem);
+  -ms-transform: translateX(0.85rem);
+  transform: translateX(0.85rem);
+}

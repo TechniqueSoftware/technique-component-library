@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Snackbar> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-atomic="true"
+    aria-live="assertive"
+    class="fade toast border-0 fixed-top w-100 show"
+    role="alert"
+  >
+    <div
+      class="toast-header 
+    bg-primary
+    text-white
+    d-flex
+    align-items-center
+    justify-content-between
+    w-100
+  "
+    >
+      <p
+        class="fs-5"
+      >
+        This snackbar is getting tested right now
+      </p>
+      <button
+        aria-label="Close"
+        class="btn-close"
+        data-dismiss="toast"
+        type="button"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

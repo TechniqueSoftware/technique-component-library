@@ -1,0 +1,40 @@
+.tabs {
+  gap: 2px;
+}
+
+.tabs > li {
+  flex: 1;
+
+  > button {
+    width: 100%;
+    font-weight: bold !important;
+    background-color: var(--bs-gray-200) !important;
+    padding: 14px 0;
+    color: var(--bs-gray-700) !important;
+    font-size: 1.25rem;
+  }
+
+  > button:global(.active) {
+    background-color: var(--bs-white) !important;
+    color: var(--bs-primary) !important;
+  }
+}
+/* stylelint-disable no-descending-specificity */
+.tabUnderline {
+  gap: 0px;
+  border: none !important;
+  > li {
+  
+    > button {
+      width: 100%;
+      border: none !important;
+      background-color: var(--bs-white) !important;
+      border-bottom: 4px var(--bs-gray-200) solid !important;
+    }
+    > button:global(.active) {
+      border: none !important;
+      margin-top: -3px;
+      border-bottom: 8px var(--bs-primary) solid !important;
+    }
+  }
+} 

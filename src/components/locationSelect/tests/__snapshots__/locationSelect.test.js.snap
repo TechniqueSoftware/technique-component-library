@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocationSelect> should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="form-label"
+      for="locationsSelect"
+    >
+      Location
+    </label>
+    <select
+      aria-label="Select Location"
+      class="form-select"
+      id="locationsSelect"
+      role="combobox"
+      type="select"
+    >
+      <optgroup
+        label="Locations"
+      >
+        <option
+          value="4585"
+        >
+          Austin, TX
+        </option>
+        <option
+          value="4560"
+        >
+          Mohali, India
+        </option>
+        <option
+          value="4559"
+        >
+          Philadelphia, PA
+        </option>
+        <option
+          value="5243"
+        >
+          SMS Test
+        </option>
+        <option
+          value="5255"
+        >
+          Studio
+        </option>
+        <option
+          value="4975"
+        >
+          Tutorial
+        </option>
+      </optgroup>
+    </select>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelectSearchList should not show items when search does not match and should show "No Match Found" message 1`] = `
+"<div className={[undefined]}>
+  <WithStyles(TextInput) error={false} value=\\"xxx\\" aria-label=\\"Search\\" placeholder=\\"Search\\" startAdornmentIcon={{...}} onChange={[Function: bound ]} />
+  <WithStyles(ForwardRef(List)) subheader={{...}} style={{...}} dense={true}>
+    <WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(ListItemText))>
+        No match found
+      </WithStyles(ForwardRef(ListItemText))>
+    </WithStyles(ForwardRef(ListItem))>
+  </WithStyles(ForwardRef(List))>
+</div>"
+`;
+
+exports[`MultiSelectSearchList should not show items when search does not match and should show "No Match Found" message 2`] = `""`;
+
+exports[`MultiSelectSearchList should only show items that match searchText when search text is entered 1`] = `
+"<WithStyles(ForwardRef(List)) subheader={{...}} style={{...}} dense={true}>
+  <WithStyles(MultiSelectCheckboxListItem) groupId=\\"group1\\" disabled={false} labelString=\\"Group 1\\" checked={true} name=\\"group1-allSelected\\" value=\\"group1\\" onClick={[Function: bound ]} indeterminate={false} />
+  <ul>
+    <WithStyles(MultiSelectCheckboxListItem) groupId=\\"group1\\" labelString=\\"group1-mockLabelText1\\" labelComponent={[undefined]} value=\\"1\\" name=\\"mockLabelName\\" disabled={[undefined]} checked={true} onClick={[Function: bound ]} />
+  </ul>
+</WithStyles(ForwardRef(List))>"
+`;

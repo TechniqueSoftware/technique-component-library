@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ACTIONS Followups errors 1`] = `
+Object {
+  "payload": Object {
+    "error": "some error here",
+  },
+  "type": "scheduleNScripts/FOLLOWUPS/ERROR",
+}
+`;
+
+exports[`ACTIONS Followups gets 1`] = `
+Object {
+  "type": "scheduleNScripts/FOLLOWUPS/GET",
+}
+`;
+
+exports[`ACTIONS Followups gets inner permissions 1`] = `
+Object {
+  "payload": Object {
+    "locationId": 4585,
+  },
+  "type": "scheduleNScripts/FOLLOWUPS/INNER_PERMISSIONS",
+}
+`;
+
+exports[`ACTIONS Followups sets 1`] = `
+Object {
+  "payload": Object {
+    "content": Array [
+      Object {
+        "clubId": 659,
+        "followUpTypes": Array [
+          Object {
+            "followUpStatuses": Array [
+              Object {
+                "customClubLabel": null,
+                "groupName": "Prospect",
+                "hidden": "false",
+                "id": "4",
+                "name": "Active Guest",
+              },
+              Object {
+                "customClubLabel": null,
+                "groupName": "Prospect",
+                "hidden": "false",
+                "id": "5",
+                "name": "Expired Guest",
+              },
+            ],
+            "id": "1",
+            "name": "Membership",
+          },
+          Object {
+            "followUpStatuses": Array [
+              Object {
+                "customClubLabel": null,
+                "groupName": "PT Prospect",
+                "hidden": "false",
+                "id": "1",
+                "name": "Not Booked",
+              },
+            ],
+            "id": "2",
+            "name": "Personal Training",
+          },
+        ],
+      },
+    ],
+  },
+  "type": "scheduleNScripts/FOLLOWUPS/SET",
+}
+`;
+
+exports[`ACTIONS Followups sets inner permissions 1`] = `
+Object {
+  "payload": Object {
+    "innerPermissions": Object {
+      "automaticFollowUpAction": true,
+      "followUpSegmentsAction": false,
+    },
+  },
+  "type": "scheduleNScripts/FOLLOWUPS/SET_INNER_PERMISSIONS",
+}
+`;
+
+exports[`ACTIONS Followups sets permission 1`] = `
+Object {
+  "payload": Object {
+    "canEditSchedules": true,
+    "canEditScripts": false,
+  },
+  "type": "scheduleNScripts/FOLLOWUPS/PERMISSION",
+}
+`;
+
+exports[`ACTIONS Followups succeeds 1`] = `
+Object {
+  "payload": Object {
+    "content": Array [
+      Object {
+        "clubId": 659,
+        "followUpTypes": Array [
+          Object {
+            "followUpStatuses": Array [
+              Object {
+                "customClubLabel": null,
+                "groupName": "Prospect",
+                "hidden": "false",
+                "id": "4",
+                "name": "Active Guest",
+              },
+              Object {
+                "customClubLabel": null,
+                "groupName": "Prospect",
+                "hidden": "false",
+                "id": "5",
+                "name": "Expired Guest",
+              },
+            ],
+            "id": "1",
+            "name": "Membership",
+          },
+          Object {
+            "followUpStatuses": Array [
+              Object {
+                "customClubLabel": null,
+                "groupName": "PT Prospect",
+                "hidden": "false",
+                "id": "1",
+                "name": "Not Booked",
+              },
+            ],
+            "id": "2",
+            "name": "Personal Training",
+          },
+        ],
+      },
+    ],
+  },
+  "type": "scheduleNScripts/FOLLOWUPS/SUCCESS",
+}
+`;
+
+exports[`ACTIONS Scripts edits 1`] = `
+Object {
+  "payload": Object {
+    "payload": Object {
+      "action": "some action",
+      "data": Object {},
+    },
+  },
+  "type": "scheduleNScripts/SCRIPTS/EDIT",
+}
+`;
+
+exports[`ACTIONS Scripts saves 1`] = `
+Object {
+  "payload": Object {
+    "payload": Object {
+      "data": Object {},
+    },
+  },
+  "type": "scheduleNScripts/SCRIPTS/SAVE",
+}
+`;
+
+exports[`ACTIONS Segments closes segments modal 1`] = `
+Object {
+  "type": "scheduleNScripts/SEGMENTS/CLOSE",
+}
+`;
+
+exports[`ACTIONS Segments sets error 1`] = `
+Object {
+  "payload": "Some error here",
+  "type": "scheduleNScripts/SEGMENTS/ERROR",
+}
+`;
+
+exports[`ACTIONS Segments sets segments 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "createdAt": "2022-11-03T21:47:51Z",
+      "createdBy": 20,
+      "isDeleted": false,
+      "name": "Test Segment",
+      "segmentAttributes": Array [
+        Object {
+          "attributeId": 1936,
+          "attributeType": "Marketing Source",
+          "attributeValue": "Flyer",
+        },
+        Object {
+          "attributeId": 1940,
+          "attributeType": "Marketing Source",
+          "attributeValue": "Other",
+        },
+      ],
+      "segmentId": 1935,
+      "updatedAt": "2022-11-03T22:01:10Z",
+      "updatedBy": 20,
+    },
+    Object {
+      "createdAt": "2022-11-07T16:58:04Z",
+      "createdBy": 20,
+      "isDeleted": false,
+      "name": "Test Segment I",
+      "segmentAttributes": Array [
+        Object {
+          "attributeId": 1944,
+          "attributeType": "Marketing Source",
+          "attributeValue": "Drive By",
+        },
+      ],
+      "segmentId": 1943,
+      "updatedAt": "2022-11-07T16:58:04Z",
+      "updatedBy": 20,
+    },
+  ],
+  "type": "scheduleNScripts/SEGMENTS/SET",
+}
+`;
+
+exports[`ACTIONS Segments sets segments attributes 1`] = `
+Object {
+  "payload": Object {
+    "marketing": Array [
+      "a",
+    ],
+    "membership": Array [
+      "b",
+    ],
+  },
+  "type": "scheduleNScripts/SEGMENTS/SET_ATTRIBUTES",
+}
+`;
+
+exports[`ACTIONS Segments sets segments data 1`] = `
+Object {
+  "payload": Object {
+    "followUpStatus": "11",
+    "followUpType": 1,
+    "title": "title",
+  },
+  "type": "scheduleNScripts/SEGMENTS/SET_DATA",
+}
+`;
+
+exports[`ACTIONS Snackbar closes snackbar 1`] = `
+Object {
+  "type": "scheduleNScripts/SNACKBAR/CLOSE",
+}
+`;
+
+exports[`ACTIONS Snackbar sets snackbar 1`] = `
+Object {
+  "payload": Object {
+    "payload": "Snackbar msg",
+  },
+  "type": "scheduleNScripts/SNACKBAR/SET",
+}
+`;
+
+exports[`ACTIONS Touchpoint closes 1`] = `
+Object {
+  "type": "scheduleNScripts/TOUCHPOINT/CLOSE",
+}
+`;
+
+exports[`ACTIONS Touchpoint creates 1`] = `
+Object {
+  "payload": Object {
+    "payload": "some id here",
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/NEW",
+}
+`;
+
+exports[`ACTIONS Touchpoint creates errors 1`] = `
+Object {
+  "payload": Object {
+    "payload": "some error here",
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/NEW_ERROR",
+}
+`;
+
+exports[`ACTIONS Touchpoint creates succeeds 1`] = `
+Object {
+  "payload": Object {
+    "payload": "some id here",
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/NEW_SUCCESS",
+}
+`;
+
+exports[`ACTIONS Touchpoint deletes 1`] = `
+Object {
+  "payload": Object {
+    "payload": "some id here",
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/DELETE",
+}
+`;
+
+exports[`ACTIONS Touchpoint deletes errors 1`] = `
+Object {
+  "payload": Object {
+    "payload": "some error here",
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/DELETE_ERROR",
+}
+`;
+
+exports[`ACTIONS Touchpoint deletes succeeds 1`] = `
+Object {
+  "payload": Object {
+    "payload": Array [
+      Object {
+        "a": 1,
+      },
+      Object {
+        "a": 2,
+      },
+    ],
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/DELETE_SUCCESS",
+}
+`;
+
+exports[`ACTIONS Touchpoint edits 1`] = `
+Object {
+  "payload": Object {
+    "payload": "some id here",
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/EDIT",
+}
+`;
+
+exports[`ACTIONS Touchpoint edits errors 1`] = `
+Object {
+  "payload": Object {
+    "payload": "some error here",
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/EDIT_ERROR",
+}
+`;
+
+exports[`ACTIONS Touchpoint edits schedule 1`] = `
+Object {
+  "payload": Object {
+    "payload": Object {
+      "dayNum": 2,
+      "immediate": false,
+    },
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/EDIT_TOUCHPOINT",
+}
+`;
+
+exports[`ACTIONS Touchpoint edits succeeds 1`] = `
+Object {
+  "payload": Object {
+    "payload": Object {
+      "followups": Array [],
+      "snackbar": "EDIT_SUCCESS",
+    },
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/EDIT_SUCCESS",
+}
+`;
+
+exports[`ACTIONS Touchpoint opens 1`] = `
+Object {
+  "payload": Object {
+    "payload": "some id here",
+  },
+  "type": "scheduleNScripts/TOUCHPOINT/OPEN",
+}
+`;

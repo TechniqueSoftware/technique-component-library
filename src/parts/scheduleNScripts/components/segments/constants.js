@@ -1,0 +1,5 @@
+export const FOLLOWUP_STATUS = {
+  APPT_BOOKED: 2,
+  MEMBER: 6,
+  WEB_LEAD: 11
+}
