@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs should render with minimal props 1`] = `
+"<WithStyles(ForwardRef(Breadcrumbs)) className={[undefined]} itemsBeforeCollapse={0} itemsAfterCollapse={4} maxItems={5}>
+  <WithStyles(ForwardRef(Link)) className={{...}} color=\\"inherit\\" target={[undefined]} href=\\"#\\" onClick={[undefined]}>
+    Home
+  </WithStyles(ForwardRef(Link))>
+</WithStyles(ForwardRef(Breadcrumbs))>"
+`;
+
+exports[`Breadcrumbs should render with two links 1`] = `
+"<WithStyles(ForwardRef(Breadcrumbs)) className={[undefined]} itemsBeforeCollapse={0} itemsAfterCollapse={4} maxItems={5}>
+  <WithStyles(ForwardRef(Link)) className={{...}} color=\\"inherit\\" target={[undefined]} href=\\"#\\" onClick={[undefined]}>
+    Home
+  </WithStyles(ForwardRef(Link))>
+  <WithStyles(ForwardRef(Link)) className={{...}} color=\\"inherit\\" target={[undefined]} href=\\"#\\" onClick={[undefined]}>
+    <Memo(ForwardRef(HomeIcon)) className={{...}} />
+    Home
+  </WithStyles(ForwardRef(Link))>
+  <WithStyles(ForwardRef(Link)) className={{...}} color=\\"inherit\\" target={[undefined]} href=\\"/sales\\" onClick={[undefined]}>
+    Sales
+  </WithStyles(ForwardRef(Link))>
+  <WithStyles(ForwardRef(Link)) className={{...}} color=\\"inherit\\" target={[undefined]} href=\\"#\\" onClick={[Function: onClick]}>
+    Invoices
+  </WithStyles(ForwardRef(Link))>
+  <WithStyles(ForwardRef(Typography)) className={{...}} color=\\"textPrimary\\">
+    Invoices
+  </WithStyles(ForwardRef(Typography))>
+</WithStyles(ForwardRef(Breadcrumbs))>"
+`;

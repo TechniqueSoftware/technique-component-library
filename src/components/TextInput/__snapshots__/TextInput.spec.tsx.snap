@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput should render with minimal props 1`] = `
+"<WithStyles(ForwardRef(FormControl)) fullWidth={true} classes={{...}} value=\\"mockValue\\" onChange={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+  <WithStyles(ForwardRef(Input)) inputProps={{...}} placeholder=\\"mockPlaceHolder\\" classes={{...}} fullWidth={true} autoFocus={false} startAdornment={{...}} />
+</WithStyles(ForwardRef(FormControl))>"
+`;
