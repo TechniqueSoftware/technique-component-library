@@ -1,0 +1,17 @@
+export const MODULE_NAME = {
+  HEADERS: 'Headers',
+  DIALOGS: 'Dialogs',
+  TABS: 'Tabs',
+  BUTTONS: 'Buttons',
+  PROGRESS: 'Progress',
+  CARDS: 'Cards',
+  MULTISELECT: 'MultiSelect',
+  INPUTS: 'Inputs',
+  ICON: 'Icon',
+  TABLES: 'Tables',
+  SNACKBARS: 'Snackbars',
+  NOTIFICATIONS: 'Notifications',
+  SURFACES: 'Surfaces',
+  BREADCRUMBS: 'Breadcrumbs',
+  ERRORS:'Errors',
+};
