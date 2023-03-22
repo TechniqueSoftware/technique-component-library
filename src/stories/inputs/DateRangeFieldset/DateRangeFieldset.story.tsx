@@ -2,13 +2,13 @@ import * as React from 'react';
 // tslint:disable-next-line:no-duplicate-imports
 import { useState } from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { clubOsTheme, DateRangeFieldset, DateRangeFieldsetProps } from '@clubos-ui-components/core';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import Grid from '@material-ui/core/Grid';
 import * as moment from 'moment';
 import { boolean, select, text } from '@storybook/addon-knobs';
-import { analytics30DaysRangeOptions } from '@clubos-ui-components/core/dist/components/DateRangeFieldset/dateRangeFieldSetConstants';
+import { analytics30DaysRangeOptions } from '../../components/DateRangeFieldset/dateRangeFieldSetConstants';
 
 require('moment-timezone');
 

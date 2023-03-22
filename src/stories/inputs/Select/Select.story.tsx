@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { clubOsTheme, Select, SelectProps } from '@clubos-ui-components/core';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import Grid from '@material-ui/core/Grid';
-import { MenuItem } from '@clubos-ui-components/core/dist/components/MenuItem/MenuItem';
-import { ListSubheader } from '@clubos-ui-components/core/dist/components/ListSubheader/ListSubheader';
+import { MenuItem } from '../../components/MenuItem/MenuItem';
+import { ListSubheader } from '../../components/ListSubheader/ListSubheader';
 import { boolean, select, text } from '@storybook/addon-knobs';
 
 require('moment-timezone');

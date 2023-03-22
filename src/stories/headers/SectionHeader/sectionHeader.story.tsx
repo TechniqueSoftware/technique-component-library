@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { clubOsTheme } from '@clubos-ui-components/core';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
-import { SectionHeader, SectionHeaderProps } from '@clubos-ui-components/core/dist/components/Headers/SectionHeader';
+import { SectionHeader, SectionHeaderProps } from '../../components/Headers/SectionHeader';
 import { text, boolean } from '@storybook/addon-knobs';
 import Typography from '@material-ui/core/Typography/Typography';
 import HistoryIcon from '@material-ui/icons/History';

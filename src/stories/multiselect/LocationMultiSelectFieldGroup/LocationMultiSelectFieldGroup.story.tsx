@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import {
   MultiSelectGroupValueWrapper,
   MultiSelectOptionData
-} from '@clubos-ui-components/core/dist/components/MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
+} from '../../components/MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import { clubOsTheme, IconTooltip, IconTooltipProps } from '@clubos-ui-components/core/';
 import { LocationMultiSelectFieldGroupProps } from
-    '@clubos-ui-components/core/dist/components/LocationMultiSelectFieldGroup/LocationMultiSelectFieldGroup';
+    '../../components/LocationMultiSelectFieldGroup/LocationMultiSelectFieldGroup';
 import { LocationMultiSelectFieldGroup } from '@clubos-ui-components/core';
 import { boolean, number, text } from '@storybook/addon-knobs';
 import { createRandomCompanyNameWordsArray } from '../../utils/fakeData';

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { TextInput, TextInputProps, clubOsTheme } from '@clubos-ui-components/core';
 import { boolean, number, text } from '@storybook/addon-knobs';
 import Search from '@material-ui/icons/Search';

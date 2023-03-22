@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import { clubOsTheme } from '@clubos-ui-components/core/dist';
-import { TextFieldProps } from '@clubos-ui-components/core/dist/components/TextField/TextField';
-import Autocomplete, { AutocompleteProps } from '@clubos-ui-components/core/dist/components/Autocomplete/Autocomplete';
+import { TextFieldProps } from '../../components/TextField/TextField';
+import Autocomplete, { AutocompleteProps } from '../../components/Autocomplete/Autocomplete';
 import { boolean, text } from '@storybook/addon-knobs';
 
 function sleep(delay = 0) {

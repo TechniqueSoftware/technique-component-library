@@ -4,7 +4,7 @@ import Box from '@material-ui/core/Box';
 import { number, text, boolean } from '@storybook/addon-knobs';
 import { createCUICStoriesOf } from '../../utils/utils';
 import { createRandomCompanyNameWordsArray, createRandomLoremIpsumWordsArray, createRandomNameWordsArray } from '../../utils/fakeData';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import {
   MultiSelectGroupValueWrapper,
   MultiSelectFieldGroupProps,
@@ -12,11 +12,11 @@ import {
   clubOsTheme,
 } from '@clubos-ui-components/core';
 import MultiSelectFieldGroupButton, { MultiSelectFieldGroupButtonProps }
-  from '@clubos-ui-components/core/dist/components/MultiSelectFieldGroupButton/MultiSelectFieldGroupButton';
+  from '../../components/MultiSelectFieldGroupButton/MultiSelectFieldGroupButton';
 import {
   MultiSelectOptionGroupData,
   MultiSelectOptionData
-} from '@clubos-ui-components/core/dist/components/MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
+} from '../../components/MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 
 const LIST_COUNT = 20;
 const companyNameList: string[] = createRandomCompanyNameWordsArray(LIST_COUNT);

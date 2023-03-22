@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { select } from '@storybook/addon-knobs';
 
-import { default as Accordions, Accordion } from '@clubos-ui-components/core/dist/components/Accordions/Accordions';
+import { default as Accordions, Accordion } from '../../components/Accordions/Accordions';
 
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
+import clubOsTheme from '../../themes/clubOS';
 import { MuiThemeProvider } from '@material-ui/core';
 
 const AccordionsStory = () => {

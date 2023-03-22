@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
-import { Paper, PaperProps } from '@clubos-ui-components/core/dist/components/Paper/Paper';
+import { MODULE_NAME } from '../constants';
+import { Paper, PaperProps } from '../../components/Paper/Paper';
 import Box from '@material-ui/core/Box';
 import { number, boolean } from '@storybook/addon-knobs';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
+import clubOsTheme from '../../themes/clubOS';
 import { MuiThemeProvider } from '@material-ui/core';
 
 const SnackbarStory = () => {

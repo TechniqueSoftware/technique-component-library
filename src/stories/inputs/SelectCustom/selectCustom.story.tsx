@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import { boolean } from '@storybook/addon-knobs';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
-import { SelectCustom, SelectCustomProps } from '@clubos-ui-components/core/dist/components/Select/SelectCustom';
+import clubOsTheme from '../../themes/clubOS';
+import { SelectCustom, SelectCustomProps } from '../../components/Select/SelectCustom';
 import { Typography } from '@material-ui/core';
 
 function render() {

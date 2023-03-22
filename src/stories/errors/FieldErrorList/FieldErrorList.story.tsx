@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { FieldErrorList, FieldErrorListProps } from '@clubos-ui-components/core/dist/components/Errors/FieldErrorList';
+import { FieldErrorList, FieldErrorListProps } from '../../components/Errors/FieldErrorList';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { text } from '@storybook/addon-knobs';
 import { clubOsTheme } from '@clubos-ui-components/core/dist';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';

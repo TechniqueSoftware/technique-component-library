@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 
-import Pagination from '@clubos-ui-components/core/dist/components/Pagination/Pagination';
+import Pagination from '../../components/Pagination/Pagination';
 
 import { demoTop101Movies } from './data';
 

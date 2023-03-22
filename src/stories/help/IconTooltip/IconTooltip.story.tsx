@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { clubOsTheme, IconTooltip, IconTooltipProps } from '@clubos-ui-components/core';
 import { select, text } from '@storybook/addon-knobs';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';

@@ -1,10 +1,10 @@
 import * as React from 'react';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { text } from '@storybook/addon-knobs';
-import { RadioGroupProps, RadioGroup } from '@clubos-ui-components/core/dist/components/RadioGroup/RadioGroup';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
+import { RadioGroupProps, RadioGroup } from '../../components/RadioGroup/RadioGroup';
+import clubOsTheme from '../../themes/clubOS';
 import Box from '@material-ui/core/Box';
 import { IconTooltip, IconTooltipProps } from '@clubos-ui-components/core';
 import HelpRounded from '@material-ui/icons/HelpRounded';

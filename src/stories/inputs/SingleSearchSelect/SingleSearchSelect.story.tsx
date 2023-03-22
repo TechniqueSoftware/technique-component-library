@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { clubOsTheme, SingleSearchSelect, SingleSearchSelectProps } from '@clubos-ui-components/core';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import Box from '@material-ui/core/Box';

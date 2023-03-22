@@ -3,9 +3,9 @@ import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import * as moment from 'moment';
 import { boolean, select, text } from '@storybook/addon-knobs';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
-import { TimeInputProps, TimeInput } from '@clubos-ui-components/core/dist/components/TimeInput/TimeInput';
+import { MODULE_NAME } from '../constants';
+import clubOsTheme from '../../themes/clubOS';
+import { TimeInputProps, TimeInput } from '../../components/TimeInput/TimeInput';
 
 type TimeInputStoryProps = {
   label: string;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import {
   MultiSelectGroupValueWrapper,
   MultiSelectOptionData,

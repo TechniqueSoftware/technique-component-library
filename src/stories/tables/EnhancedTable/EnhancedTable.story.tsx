@@ -1,17 +1,17 @@
 import * as React from 'react';
 // tslint:disable-next-line:no-duplicate-imports
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import { boolean, text, number } from '@storybook/addon-knobs';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
+import clubOsTheme from '../../themes/clubOS';
 import {
   EnhancedTable,
   EnhancedTableProps,
   TableRowProps,
   HeaderCellProps,
   OrderDirection
-} from '@clubos-ui-components/core/dist/components/Tables/EnhancedTable';
+} from '../../components/Tables/EnhancedTable';
 import EditIcon from '@material-ui/icons/Edit';
 import IconButton from '@material-ui/core/IconButton';
 import Box from '@material-ui/core/Box';

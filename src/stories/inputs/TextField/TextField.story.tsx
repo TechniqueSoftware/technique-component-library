@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { clubOsTheme } from '@clubos-ui-components/core';
 import { TextField, TextFieldProps } from '@clubos-ui-components/core/src/components/TextField/TextField';
 import { boolean, select, text } from '@storybook/addon-knobs';

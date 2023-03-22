@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
-import Switch, { SwitchProps } from '@clubos-ui-components/core/dist/components/Switch/Switch';
+import { MODULE_NAME } from '../constants';
+import Switch, { SwitchProps } from '../../components/Switch/Switch';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
+import clubOsTheme from '../../themes/clubOS';
 import { select, boolean } from '@storybook/addon-knobs';
 
 type SwitchStoryProps = {

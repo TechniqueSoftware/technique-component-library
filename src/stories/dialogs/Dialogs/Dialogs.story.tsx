@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
-import Dialog , { DialogProps } from '@clubos-ui-components/core/dist/components/Dialog/Dialog';
+import clubOsTheme from '../../themes/clubOS';
+import Dialog , { DialogProps } from '../../components/Dialog/Dialog';
 import Box from '@material-ui/core/Box';
 import { select, boolean, text } from '@storybook/addon-knobs';
 import {
@@ -12,10 +12,10 @@ import {
     HeaderCellProps,
     OrderDirection,
     EnhancedTableProps
-} from '@clubos-ui-components/core/dist/components/Tables/EnhancedTable';
+} from '../../components/Tables/EnhancedTable';
 import EditIcon from '@material-ui/icons/Edit';
 import IconButton from '@material-ui/core/IconButton';
-import ButtonWithIcon from '@clubos-ui-components/core/dist/components/Buttons/ButtonWithIcon';
+import ButtonWithIcon from '../../components/Buttons/ButtonWithIcon';
 import Typography from '@material-ui/core/Typography/Typography';
 
 const { useState } = React;

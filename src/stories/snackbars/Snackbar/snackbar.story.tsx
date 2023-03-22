@@ -3,9 +3,9 @@ import { clubOsTheme } from '@clubos-ui-components/core/dist';
 import { text, select, number, boolean } from '@storybook/addon-knobs';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
-import { useSnackbar, SnackbarProvider, EnqueueSnackbarParams } from '@clubos-ui-components/core/dist/components/Snackbar/SnackbarProvider';
-import ButtonWithIcon from '@clubos-ui-components/core/dist/components/Buttons/ButtonWithIcon';
+import { MODULE_NAME } from '../constants';
+import { useSnackbar, SnackbarProvider, EnqueueSnackbarParams } from '../../components/Snackbar/SnackbarProvider';
+import ButtonWithIcon from '../../components/Buttons/ButtonWithIcon';
 
 const SnackbarStory = () => {
   const message = text('Message', 'Follow-up sent!');

@@ -2,12 +2,12 @@ import * as React from 'react';
 // tslint:disable-next-line:no-duplicate-imports
 import { useState } from 'react';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
+import { MODULE_NAME } from '../constants';
+import clubOsTheme from '../../themes/clubOS';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import Grid from '@material-ui/core/Grid';
 import { boolean, select, text } from '@storybook/addon-knobs';
-import { StartAndEndInput, StartAndEndInputProps } from '@clubos-ui-components/core/dist/components/StartAndEndInput/StartAndEndInput';
+import { StartAndEndInput, StartAndEndInputProps } from '../../components/StartAndEndInput/StartAndEndInput';
 
 require('moment-timezone');
 

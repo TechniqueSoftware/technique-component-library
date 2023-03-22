@@ -4,11 +4,11 @@ import Box from '@material-ui/core/Box';
 import { number, text, boolean } from '@storybook/addon-knobs';
 import { createCUICStoriesOf } from '../../utils/utils';
 import { ThemeProvider } from '@material-ui/styles';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { clubOsTheme } from '@clubos-ui-components/core';
 
-import MultiSelectStandardFieldButton, { MultiSelectStandardFieldButtonProps } from '@clubos-ui-components/core/dist/components/MultiSelectStandardFieldButton/MultiSelectStandardFieldButton';
-import { MultiSelectStandardOptions } from '@clubos-ui-components/core/dist/components/MultiSelectStandardField/MultiSelectStandardSearchList/MultiSelectStandardSearchList';
+import MultiSelectStandardFieldButton, { MultiSelectStandardFieldButtonProps } from '../../components/MultiSelectStandardFieldButton/MultiSelectStandardFieldButton';
+import { MultiSelectStandardOptions } from '../../components/MultiSelectStandardField/MultiSelectStandardSearchList/MultiSelectStandardSearchList';
 
 type MultiSelectStandardStoryComponentProps = {
   listContainerHeight: number,

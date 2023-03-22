@@ -3,9 +3,9 @@ import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import * as moment from 'moment';
 import { boolean, select, text } from '@storybook/addon-knobs';
 import { createCUICStoriesOf } from '../../utils/utils';
-import { MODULE_NAME } from '../../constants';
-import clubOsTheme from '@clubos-ui-components/core/dist/themes/clubOS';
-import { DateInputProps, DateInput } from '@clubos-ui-components/core/dist/components/DateInput/DateInput';
+import { MODULE_NAME } from '../constants';
+import clubOsTheme from '../../themes/clubOS';
+import { DateInputProps, DateInput } from '../../components/DateInput/DateInput';
 
 type DateInputStoryProps = {
   label: string;

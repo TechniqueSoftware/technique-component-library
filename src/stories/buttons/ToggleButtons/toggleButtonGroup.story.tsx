@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { MuiThemeProvider } from '@material-ui/core/styles';
-import { MODULE_NAME } from '../../constants';
+import { MODULE_NAME } from '../constants';
 import { clubOsTheme } from '@clubos-ui-components/core';
 import { createCUICStoriesOf } from '../../utils/utils';
 import Box from '@material-ui/core/Box';
 
-import ToggleButtonGroup from '@clubos-ui-components/core/dist/components/ToggleButtons/ToggleButtonGroup';
-import ToggleButton from '@clubos-ui-components/core/dist/components/ToggleButtons/ToggleButton';
+import ToggleButtonGroup from '../../components/ToggleButtons/ToggleButtonGroup';
+import ToggleButton from '../../components/ToggleButtons/ToggleButton';
 import FormatAlignLeftIcon from '@material-ui/icons/FormatAlignLeft';
 import FormatAlignCenterIcon from '@material-ui/icons/FormatAlignCenter';
 import FormatAlignRightIcon from '@material-ui/icons/FormatAlignRight';
