@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { select, text } from '@storybook/addon-knobs';
+import { select, text } from '@storybook/addon-controls';
 import { createCUICStoriesOf } from '../../utils/utils';
 import { MODULE_NAME } from '../../constants';
 import clubOsTheme from '../../../themes/clubOS/index';
