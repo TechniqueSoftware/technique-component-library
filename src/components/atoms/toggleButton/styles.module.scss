@@ -1,0 +1,27 @@
+.btngroup {
+  > label {
+    width: 100%;
+    background-color: var(--bs-gray-200);
+    color: var(--bs-black) ;
+    border: 1px solid  var(--bs-gray-200);
+  }
+  > input {
+    &:checked {
+      + {
+        label {
+          background-color: var(--bs-primary) !important;
+          color: white !important;
+          &:hover {
+            background-color: var(--bs-primary) !important;
+            color: white !important;
+          }
+         }
+
+      }
+    }
+  }
+  > :global(.btn) {
+    box-shadow: none !important;
+  }
+}
+  

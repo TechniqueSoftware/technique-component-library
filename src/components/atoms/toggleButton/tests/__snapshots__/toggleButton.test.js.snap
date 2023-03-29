@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class=" btngroup btn-group"
+    role="group"
+  >
+    <input
+      autocomplete="off"
+      class="btn-check"
+      id="radio-AM"
+      type="radio"
+      value="AM"
+    />
+    <label
+      class="btn btn-outline-primary"
+      for="radio-AM"
+      tabindex="0"
+    >
+      AM
+    </label>
+    <input
+      autocomplete="off"
+      class="btn-check"
+      id="radio-PM"
+      type="radio"
+      value="PM"
+    />
+    <label
+      class="btn btn-outline-primary"
+      for="radio-PM"
+      tabindex="0"
+    >
+      PM
+    </label>
+  </div>
+</DocumentFragment>
+`;

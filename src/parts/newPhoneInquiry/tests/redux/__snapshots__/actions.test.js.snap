@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ACTIONS DATA ACTIONS Clear Data 1`] = `
+Object {
+  "type": "newPhoneInquiry/DATA/CLEAR",
+}
+`;
+
+exports[`ACTIONS DATA ACTIONS Receive User Data 1`] = `
+Object {
+  "payload": Object {
+    "address": null,
+    "birthDate": null,
+    "clubId": 659,
+    "createdDate": "2022-04-22T14:42:51Z",
+    "deletedAt": null,
+    "deletedBy": null,
+    "email": "gkpeel@gmail.com",
+    "firstName": "Geoff",
+    "gender": "M",
+    "homePhone": null,
+    "joinDate": null,
+    "lastName": "Peel",
+    "locationAccess": Array [],
+    "locationId": 4559,
+    "mobilePhone": 9088124012,
+    "role": Object {
+      "id": 99,
+      "name": "Prospect",
+    },
+    "salespersonId": 775565995,
+    "source": "T.I.",
+    "trainerId": null,
+    "updatedBy": null,
+    "updatedDate": null,
+    "userId": 172195379,
+    "workPhone": null,
+  },
+  "type": "newPhoneInquiry/DATA/REQUEST_USER_DATA",
+}
+`;
+
+exports[`ACTIONS DATA ACTIONS Request User Data 1`] = `
+Object {
+  "payload": 172195379,
+  "type": "newPhoneInquiry/DATA/REQUEST_USER_DATA",
+}
+`;
+
+exports[`ACTIONS DATA ACTIONS Set Value 1`] = `
+Object {
+  "payload": Object {
+    "data": Object {
+      "error": "",
+      "validated": true,
+      "value": "Geoff",
+    },
+    "name": "firstName",
+  },
+  "type": "newPhoneInquiry/DATA/SET",
+}
+`;
+
+exports[`ACTIONS SUBMIT ACTIONS Invalid Submission 1`] = `
+Object {
+  "payload": Object {
+    "Email": "Please provide an email or phone number",
+    "First Name": "This field is required",
+    "Last Name": "This field is required",
+    "Phone": "Please provide an email or phone number",
+    "code": "FORM_SUBMISSION_ERROR",
+    "status": 400,
+  },
+  "type": "newPhoneInquiry/SUBMIT/ERROR",
+}
+`;
+
+exports[`ACTIONS SUBMIT ACTIONS Submission Error 1`] = `
+Object {
+  "payload": Object {
+    "error": "Bad Request",
+    "messages": Object {
+      "code": "(CONN=6594969) DATA TOO LONG FOR COLUMN 'FIRST_NAME' AT ROW 1",
+      "message": "could not execute statement",
+    },
+    "status": "BAD_REQUEST",
+    "timestamp": "2022-04-06T15:05:54.903+0000",
+  },
+  "type": "newPhoneInquiry/SUBMIT/RECEIVE_ERROR",
+}
+`;
+
+exports[`ACTIONS SUBMIT ACTIONS Successful Submission 1`] = `
+Object {
+  "type": "newPhoneInquiry/SUBMIT/SEND",
+}
+`;
+
+exports[`ACTIONS SUBMIT ACTIONS Successful Submission 2`] = `
+Object {
+  "payload": Object {
+    "address": null,
+    "barcode": null,
+    "birthDate": null,
+    "clubId": 659,
+    "code": "SUCCESS",
+    "createdBy": 132763659,
+    "createdDate": "2022-04-22T15:29:53.055399Z",
+    "deletedAt": null,
+    "deletedBy": null,
+    "email": "ti422@aol.com",
+    "emailOptOut": true,
+    "eventReminderMethod": null,
+    "externalSystemIds": Array [],
+    "firstName": "Test",
+    "gender": "M",
+    "homePhone": null,
+    "interests": Array [],
+    "joinDate": null,
+    "lastName": "Inquiry422",
+    "locationAccess": null,
+    "locationId": 4559,
+    "membershipFollowupStatus": null,
+    "mobilePhone": null,
+    "profilePicHash": null,
+    "ptFollowupStatus": null,
+    "referredBy": null,
+    "role": Object {
+      "id": "99",
+      "name": "Prospect",
+    },
+    "salespersonId": 132763659,
+    "sendResponseEmails": false,
+    "smsOptOut": true,
+    "source": "T.I.",
+    "status": 202,
+    "submissionPoint": 2,
+    "timeZone": "America/New_York",
+    "trainerId": null,
+    "updatedBy": null,
+    "updatedDate": null,
+    "userId": 172195380,
+    "userName": null,
+    "userOrigin": Object {
+      "originId": 2,
+      "originName": "T.I.",
+    },
+    "workPhone": null,
+  },
+  "type": "newPhoneInquiry/SUBMIT/RECEIVE_SUCCESS",
+}
+`;

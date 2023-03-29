@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Pagination should render with minimal props 1`] = `"<WithStyles(ForwardRef(TablePagination)) className={[undefined]} component=\\"span\\" count={200} page={0} rowsPerPage={20} rowsPerPageOptions={{...}} onPageChange={[Function: handleChangePage]} onRowsPerPageChange={[Function: handleChangeRowsPerPage]} />"`;
-
-exports[`Pagination should render with page 5 1`] = `"<WithStyles(ForwardRef(TablePagination)) className={[undefined]} component=\\"span\\" count={200} page={4} rowsPerPage={50} rowsPerPageOptions={{...}} onPageChange={[Function: handleChangePage]} onRowsPerPageChange={[Function: handleChangeRowsPerPage]} />"`;
-
-exports[`Pagination should render with page sizes 1`] = `"<WithStyles(ForwardRef(TablePagination)) className={[undefined]} component=\\"span\\" count={200} page={0} rowsPerPage={20} rowsPerPageOptions={{...}} onPageChange={[Function: handleChangePage]} onRowsPerPageChange={[Function: handleChangeRowsPerPage]} />"`;

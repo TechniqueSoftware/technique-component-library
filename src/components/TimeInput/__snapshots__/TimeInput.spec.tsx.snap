@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Time Input should render with minimal props 1`] = `"<TextField InputLabelProps={{...}} type=\\"time\\" />"`;

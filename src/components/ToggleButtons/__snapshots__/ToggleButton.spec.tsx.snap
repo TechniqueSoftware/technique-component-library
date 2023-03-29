@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ToggleButton should render with base props 1`] = `
-"<WithStyles(ForwardRef(ToggleButton)) className=\\"my-toggle-button\\" value=\\"left\\">
-  <Memo(ForwardRef(FormatAlignLeftIcon)) />
-</WithStyles(ForwardRef(ToggleButton))>"
-`;

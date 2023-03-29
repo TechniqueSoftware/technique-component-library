@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Switch should render with base props 1`] = `"<WithStyles(ForwardRef(Switch)) color=\\"primary\\" name=\\"mockName\\" checked={true} />"`;

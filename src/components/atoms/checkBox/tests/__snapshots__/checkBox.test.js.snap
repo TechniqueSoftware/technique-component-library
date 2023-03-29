@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox> should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class=""
+  >
+    <div
+      class="mb-3"
+    >
+      <div
+        class="form-check"
+      >
+        <input
+          class="form-check-input"
+          id="default-SMS"
+          role="checkbox"
+          type="checkbox"
+          value="3"
+        />
+        <label
+          class="form-check-label"
+          for="default-SMS"
+          title=""
+        >
+          SMS
+        </label>
+      </div>
+    </div>
+    <div
+      class="mb-3"
+    >
+      <div
+        class="form-check"
+      >
+        <input
+          class="form-check-input"
+          id="default-Email"
+          role="checkbox"
+          type="checkbox"
+          value="2"
+        />
+        <label
+          class="form-check-label"
+          for="default-Email"
+          title=""
+        >
+          Email
+        </label>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
