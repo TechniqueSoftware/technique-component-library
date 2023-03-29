@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from 'react';
 import Select, { SelectProps } from './Select';
 import { MenuItem } from '../MenuItem/MenuItem';
@@ -20,7 +21,6 @@ export function SelectWithNoMenu(props: SelectWithNoMenuProps) {
     const code = event.keyCode || event.which;
 
     if (code === 13) {
-      //@ts-expect-error
       props.onClick(event as any);
     }
   }

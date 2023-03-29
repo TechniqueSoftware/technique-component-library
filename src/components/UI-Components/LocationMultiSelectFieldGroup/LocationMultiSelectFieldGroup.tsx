@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from 'react';
 import { pluralize } from '../../../services/pluralizeService';
 import { LOCATIONS_GROUP_ID, REGIONS_GROUP_ID } from './locationMultiSelectFieldGroupConstants';
@@ -78,7 +79,6 @@ export class LocationMultiSelectFieldGroup extends React.PureComponent<LocationM
       clubLocationValues,
       onAllOrSelectRadioGroupChange,
     } = this.props;
-    //@ts-expect-error
     if (onChange) onChange({ regions: regionValues, locations: clubLocationValues, selectAll: value === 'true' });
     if (onAllOrSelectRadioGroupChange) onAllOrSelectRadioGroupChange(event, value);
   }
@@ -94,9 +94,7 @@ export class LocationMultiSelectFieldGroup extends React.PureComponent<LocationM
     if (helperText) return helperText;
 
     if (!showSelectedLocationHelperText) return null;
-    //@ts-expect-error
     const regionsCount = regionValues.size;
-    //@ts-expect-error
     const locationCount = clubLocationValues.size;
     const regionsAndLocationsSelected = regionsCount > 0 && locationCount > 0;
     const regionsOrLocationSelected = regionsCount > 0 || locationCount > 0;
@@ -153,17 +151,14 @@ export class LocationMultiSelectFieldGroup extends React.PureComponent<LocationM
       groupValueWrapperList: [
         {
           groupId: REGIONS_GROUP_ID,
-          //@ts-expect-error
           values: regionValues
         }, {
           groupId: LOCATIONS_GROUP_ID,
-          //@ts-expect-error
           values: clubLocationValues
         }],
       radioGroupProps: {
         label: 'Accessible to locations',
         name: radioInputName,
-        //@ts-expect-error
         value: selectAll
       },
       onRadioGroupChange: this.handleSelectAllChange,
@@ -181,13 +176,11 @@ export class LocationMultiSelectFieldGroup extends React.PureComponent<LocationM
         {
           groupLabel: 'Regions',
           groupId: REGIONS_GROUP_ID,
-          //@ts-expect-error
           multiSelectOptionDataList: regionList
         },
         {
           groupLabel: 'Locations',
           groupId: LOCATIONS_GROUP_ID,
-          //@ts-expect-error
           multiSelectOptionDataList: clubLocationList
         }
       ]

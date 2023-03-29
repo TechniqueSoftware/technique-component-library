@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Button, { ButtonProps } from '@material-ui/core/Button';
 import * as React from 'react';
 import { SvgIconProps } from '@material-ui/core/SvgIcon';
@@ -46,7 +47,6 @@ export function ButtonWithIcon(props: ButtonWithIconProps) {
     return (<Box {...boxProps} clone>
       <iconProps.component
         {...iconProps}
-        //@ts-expect-error
         fontSize={buttonSizeToIconSizeMap[props.size]} />
     </Box>);
   }

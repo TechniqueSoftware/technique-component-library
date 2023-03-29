@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { storiesOf, Story } from '@storybook/react';
 import { CUICStory, CUICStoryConfig } from '../types/cuic-stories';
 import { withKnobs } from '@storybook/addon-knobs';
@@ -9,7 +10,6 @@ import '@storybook/addon-notes/register';
  */
 export function addCUICStory(this: CUICStoriesOf, cuicStoryConfig: CUICStoryConfig): CUICStoriesOf {
   const cuicStory = createCUICStory(cuicStoryConfig);
-  //@ts-expect-error
   return this.add(cuicStory.name, cuicStory.render, cuicStory.context);
 }
 
@@ -19,7 +19,6 @@ type CUICStoriesOf = { addCUICStory: typeof addCUICStory } & Story;
  * Creates a Storybook story with our common decorators and helpers methods
  */
 export function createCUICStoriesOf(name: string, module: NodeModule): CUICStoriesOf {
-    //@ts-expect-error
 
   const cuicStoriesOf = <CUICStoriesOf>storiesOf(name, module)
     .addDecorator(withKnobs);

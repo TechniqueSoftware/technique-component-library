@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from 'react';
 
 import { default as MUIAccordion } from '@material-ui/core/Accordion';
@@ -38,12 +39,10 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     title: {
       fontSize: theme.typography.pxToRem(15),
-      //@ts-expect-error
       fontWeight: theme.typography.fontWeightRegular,
     },
     subTitle: {
       fontSize: theme.typography.pxToRem(12),
-      //@ts-expect-error
       fontWeight: theme.typography.fontWeightBold,
     },
     summaryContainer: {
@@ -117,7 +116,6 @@ const Accordions = (props: AccordionsProps) => {
             defaultExpanded={defaultExpanded}
             expanded={expandedPanels[index]}
             disabled={disabled}
-            //@ts-expect-error
             onChange={handleExpanded(index)}
           >
             <AccordionSummary

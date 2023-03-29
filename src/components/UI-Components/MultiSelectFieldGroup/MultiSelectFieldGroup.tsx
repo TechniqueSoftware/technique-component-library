@@ -106,7 +106,6 @@ export class MultiSelectFieldGroup extends React.Component<MultiSelectFieldGroup
     });
 
     onCheckboxGroupChange(copiedAndEmptiedGroupValues);
-    //@ts-expect-error
     onRadioGroupChange(event, value);
   }
 
@@ -123,18 +122,13 @@ export class MultiSelectFieldGroup extends React.Component<MultiSelectFieldGroup
     return (
       <FormControl component={'fieldset'}>
         <RadioGroup
-          //@ts-expect-error
           aria-label={radioGroupProps.label}
-          //@ts-expect-error
           name={radioGroupProps.name}
-          //@ts-expect-error
           value={radioGroupProps.value}
           onChange={this.handleRadioGroupChange}
         >
-          {//@ts-expect-error
-          this.renderRadioGroupOption(selectAllRadioInputProps)}
-          {//@ts-expect-error
-          this.renderRadioGroupOption(selectSomeRadioInputProps)}
+          {this.renderRadioGroupOption(selectAllRadioInputProps)}
+          {this.renderRadioGroupOption(selectSomeRadioInputProps)}
         </RadioGroup>
       </FormControl>
     );

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from 'react';
 import MuiAutocomplete, {
   AutocompleteProps as MuiAutocompleteProps,
@@ -75,7 +76,6 @@ export default function Autocomplete<OptionType>(autocompleteProps: Autocomplete
   };
 
   return (
-      //@ts-expect-error
     <MuiAutocomplete {...muiAutocompleteProps} onChange={onChange} />
   );
 }

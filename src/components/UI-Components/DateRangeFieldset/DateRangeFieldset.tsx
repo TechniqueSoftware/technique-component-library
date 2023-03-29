@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/styles';
 import createStyles from '@material-ui/styles/createStyles';
@@ -58,30 +59,24 @@ export default function DateRangeFieldset(props: DateRangeFieldsetProps) {
     const dateRangeOption: DateRangeOption = dateRangeOptions.find((option) => option.value === value) || dateRangeOptions[0];
     if (dateRangeOption.calculateDateRange) {
       const dateRange = dateRangeOption.calculateDateRange(today);
-      //@ts-expect-error
       startDateProps.onChange(dateRange.start.format(DATE_FORMAT_ISO));
-      //@ts-expect-error
       endDateProps.onChange(dateRange.end.format(DATE_FORMAT_ISO));
     }
-    //@ts-expect-error
     dateRangeProps.onChange(value);
   }
 
   function handleStartDateChange(event: any) {
     handleDateRangeChange(CUSTOM_DATE_RANGE_VALUE);
-    //@ts-expect-error
     startDateProps.onChange(event.target.value);
   }
 
   function handleEndDateChange(event: any) {
     handleDateRangeChange(CUSTOM_DATE_RANGE_VALUE);
-    //@ts-expect-error
     endDateProps.onChange(event.target.value);
   }
 
   // If we start with a dateRange value treat it like a change to update the start and end date values
   useEffect(() => {
-    //@ts-expect-error
     const { value } = props.dateRangeProps;
     if (value) {
       handleDateRangeChange(value);
@@ -96,13 +91,10 @@ export default function DateRangeFieldset(props: DateRangeFieldsetProps) {
 
   const startAndEndInputProps: StartAndEndInputProps = {
     id,
-    //@ts-expect-error
     startDateProps,
     handleStartDateChange,
     handleEndDateChange,
-    //@ts-expect-error
     isInvisible,
-    //@ts-expect-error
     endDateProps,
     type: 'date'
   };

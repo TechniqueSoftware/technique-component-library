@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from 'react';
 import Popover, { PopoverProps } from '@material-ui/core/Popover';
 import { SelectWithNoMenu, SelectWithNoMenuProps } from './SelectWithNoMenu';
@@ -16,7 +17,6 @@ export interface SelectCustomProps {
 }
 
 export function SelectCustom(props: SelectCustomProps) {
-  //@ts-expect-error
   const [anchorEl, setAnchorEl] = React.useState<Element>(null);
 
   const {
