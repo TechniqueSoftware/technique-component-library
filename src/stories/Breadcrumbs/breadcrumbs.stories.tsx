@@ -1,14 +1,12 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../utils/utils';
 import { MODULE_NAME } from '../constants';
-
 import HomeIcon from '@material-ui/icons/Home';
 import ContactsIcon from '@material-ui/icons/Contacts';
 import PersonIcon from '@material-ui/icons/Person';
 import EditIcon from '@material-ui/icons/Edit';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import PhoneIcon from '@material-ui/icons/Phone';
-
 import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 function render() {

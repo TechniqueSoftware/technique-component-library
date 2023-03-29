@@ -4,7 +4,7 @@ import {
   DateRangeOption,
   emailCampaignDateRangeOptions
 } from './dateRangeFieldSetConstants';
-import { DATE_FORMAT_ISO, DATE_FORMAT_MIDDLE_ENDIAN } from '../../constants/dateFormats';
+import { DATE_FORMAT_ISO, DATE_FORMAT_MIDDLE_ENDIAN } from '../constants/dateFormats';
 import moment from 'moment';
 
 describe('dateRangeFieldSetConstants', () => {

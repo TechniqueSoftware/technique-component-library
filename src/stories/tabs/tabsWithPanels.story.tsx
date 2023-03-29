@@ -5,7 +5,7 @@ import Box from '@material-ui/core/Box';
 import { createCUICStoriesOf } from '../utils/utils';
 import { MODULE_NAME } from '../constants';
 import { text } from '@storybook/addon-knobs';
-import { TabsWithPanels, TabsWithPanelsProps } from '@clubos-ui-components/core/dist/components/Tabs/TabsWithPanels';
+import { TabsWithPanels, TabsWithPanelsProps } from '../../components/Tabs/TabsWithPanels';
 import Typography from '@material-ui/core/Typography';
 
 function render() {

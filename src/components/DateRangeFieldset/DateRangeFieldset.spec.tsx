@@ -3,7 +3,7 @@ import * as React from 'react';
 import moment from 'moment';
 import { shallow } from 'enzyme';
 import { CUSTOM_DATE_RANGE_VALUE, textCampaignDateRangeOptions } from './dateRangeFieldSetConstants';
-import { DATE_FORMAT_ISO, DATE_FORMAT_MIDDLE_ENDIAN } from '../../constants/dateFormats';
+import { DATE_FORMAT_ISO, DATE_FORMAT_MIDDLE_ENDIAN } from '../constants/dateFormats';
 
 describe('DateRangeFieldset', () => {
 
