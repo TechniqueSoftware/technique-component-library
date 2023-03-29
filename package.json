@@ -144,6 +144,7 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@storybook/addon-notes": "^5.3.21"
   }
 }

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionHeader should remove margin when gutterBottom is false 1`] = `
+"<Styled(MuiBox) mb={0}>
+  <Styled(MuiBox) mb={1}>
+    <WithStyles(ForwardRef(Grid)) container={true} item={true} xs={12} spacing={1}>
+      <WithStyles(ForwardRef(Grid)) container={true} item={true} xs={8} spacing={1}>
+        <WithStyles(ForwardRef(Typography)) variant=\\"h4\\" component=\\"h2\\" gutterBottom={true}>
+          mockHeader
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Divider)) orientation=\\"horizontal\\" />
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Typography)) variant=\\"subtitle1\\" gutterBottom={true}>
+    mockSubTitle
+  </WithStyles(ForwardRef(Typography))>
+</Styled(MuiBox)>"
+`;
+
+exports[`SectionHeader should render a subtitle when provider with one 1`] = `
+"<Styled(MuiBox) mb={2}>
+  <Styled(MuiBox) mb={1}>
+    <WithStyles(ForwardRef(Grid)) container={true} item={true} xs={12} spacing={1}>
+      <WithStyles(ForwardRef(Grid)) container={true} item={true} xs={8} spacing={1}>
+        <WithStyles(ForwardRef(Typography)) variant=\\"h4\\" component=\\"h2\\" gutterBottom={true}>
+          mockHeader
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Divider)) orientation=\\"horizontal\\" />
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Typography)) variant=\\"subtitle1\\" gutterBottom={true}>
+    mockSubTitle
+  </WithStyles(ForwardRef(Typography))>
+</Styled(MuiBox)>"
+`;
+
+exports[`SectionHeader should render with minimal props 1`] = `
+"<Styled(MuiBox) mb={2}>
+  <Styled(MuiBox) mb={1}>
+    <WithStyles(ForwardRef(Grid)) container={true} item={true} xs={12} spacing={1}>
+      <WithStyles(ForwardRef(Grid)) container={true} item={true} xs={8} spacing={1}>
+        <WithStyles(ForwardRef(Typography)) variant=\\"h4\\" component=\\"h2\\" gutterBottom={true}>
+          mockHeader
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Divider)) orientation=\\"horizontal\\" />
+  </Styled(MuiBox)>
+</Styled(MuiBox)>"
+`;
+
+exports[`SectionHeader should render with right icon 1`] = `
+"<Styled(MuiBox) mb={2}>
+  <Styled(MuiBox) mb={1}>
+    <WithStyles(ForwardRef(Grid)) container={true} item={true} xs={12} spacing={1}>
+      <WithStyles(ForwardRef(Grid)) container={true} item={true} xs={8} spacing={1}>
+        <WithStyles(ForwardRef(Typography)) variant=\\"h4\\" component=\\"h2\\" gutterBottom={true}>
+          mockHeader
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid)) justifyContent=\\"flex-end\\" alignItems=\\"center\\" container={true} item={true} xs={4}>
+        <div>
+          Right Icon
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Divider)) orientation=\\"horizontal\\" />
+  </Styled(MuiBox)>
+</Styled(MuiBox)>"
+`;
