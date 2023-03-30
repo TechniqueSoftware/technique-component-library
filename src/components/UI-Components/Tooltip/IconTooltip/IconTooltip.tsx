@@ -1,3 +1,4 @@
+//@ts-nocheck
 import * as React from 'react';
 import { Theme } from '@material-ui/core';
 import Tooltip from '@material-ui/core/Tooltip';

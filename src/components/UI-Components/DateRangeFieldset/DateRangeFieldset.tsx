@@ -42,7 +42,7 @@ export interface DateRangeFieldsetProps {
   isInvisible?: boolean;
 }
 
-export default function DateRangeFieldset(props: DateRangeFieldsetProps) {
+export function DateRangeFieldset(props: DateRangeFieldsetProps) {
 
   const {
     id,
