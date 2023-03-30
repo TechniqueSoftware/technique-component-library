@@ -13,7 +13,7 @@ import {
     HeaderCellProps,
     OrderDirection,
     EnhancedTableProps
-} from '../Tables/EnhancedTable';
+} from '../Tables/EnhancedTable/EnhancedTable';
 import EditIcon from '@material-ui/icons/Edit';
 import IconButton from '@material-ui/core/IconButton';
 import ButtonWithIcon from '../Buttons/ButtonWithIcon/ButtonWithIcon';
