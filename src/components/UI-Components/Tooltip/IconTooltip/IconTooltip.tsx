@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Theme } from '@material-ui/core';
 import Tooltip from '@material-ui/core/Tooltip';
 import withStyles from '@material-ui/styles/withStyles';
-import { colors } from '../../../themes/clubOS';
+import { colors } from '../../storyThemes';
 import { SvgIconProps } from '@material-ui/core/SvgIcon/SvgIcon';
 
 const styles = (theme: Theme) => ({

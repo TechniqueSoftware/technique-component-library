@@ -1,3 +1,4 @@
+//@ts-nocheck
 // This file should serve as a reference for what components are intended to be public. When importing components, do
 // not import from this file as it will cause all components to be imported into your resulting bundle. Instead import
 // from the components respective directory.
@@ -5,7 +6,7 @@
 export {
   default as Paper,
   PaperProps,
-} from './components/Paper/Paper';
+} from './components/UI-Components/Paper/Paper'
 
 export {
   default as LocationMultiSelectFieldGroup,
@@ -19,12 +20,12 @@ export {
 
 export {
   default as SelectLocationsWithSmsTooltip
-}from './components/Tooltip/IconTooltip/IconTooltip';
+}from './components/UI-Components/Tooltip/IconTooltip/IconTooltip';
 
 export {
   default as TextInput,
   TextInputProps
-} from './components/TextInput/TextInput';
+} from './components/UI-Components/TextInput/TextInput';
 
 export {
   default as TextField,
@@ -40,12 +41,12 @@ export {
 export {
   default as SimplePopover,
   SimplePopoverProps
-} from './components/SimplePopover/SimplePopover';
+} from './components/UI-Components/SimplePopover/SimplePopover';
 
 export {
   default as IconTooltip,
   IconTooltipProps
-} from './components/Tooltip/IconTooltip/IconTooltip';
+} from './components/UI-Components/Tooltip/IconTooltip/IconTooltip';
 
 export {
   default as DateRangeFieldset,
@@ -60,12 +61,12 @@ export {
 export {
   default as Snackbar,
   SnackbarProps
-} from './components/Snackbar/Snackbar';
+} from './components/UI-Components/Snackbar/Snackbar';
 
 export {
   default as SingleSearchSelect,
   SingleSearchSelectProps
-} from './components/SingleSearchSelect/SingleSearchSelect';
+} from './components/UI-Components/SingleSearchSelect/SingleSearchSelect';
 
 export {
   default as MultiSelectFieldGroup,

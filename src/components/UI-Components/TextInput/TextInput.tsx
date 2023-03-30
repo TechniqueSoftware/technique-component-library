@@ -1,10 +1,11 @@
+//@ts-nocheck
 import * as React from 'react';
 import FormControl, { FormControlProps } from '@material-ui/core/FormControl';
 import Input from '@material-ui/core/Input';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import withStyles from '@material-ui/styles/withStyles';
 import { Theme } from '@material-ui/core';
-import { colors } from '../../themes/clubOS';
+import { colors } from '../storyThemes';
 import { createStyles } from '@material-ui/styles';
 
 const styles = (theme: Theme) => createStyles({
