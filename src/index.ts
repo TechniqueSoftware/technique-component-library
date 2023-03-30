@@ -35,7 +35,7 @@ export { TextFieldProps } from '@material-ui/core/TextField';
 export {
   default as ButtonWithIcon,
   ButtonWithIconProps
-} from './components/UI-Components/Buttons/ButtonWithIcon';
+} from './components/UI-Components/Buttons/ButtonWithIcon/ButtonWithIcon';
 
 export {
   default as SimplePopover,
@@ -90,5 +90,5 @@ export {
   RenderButtonLabelParams
 } from './components/UI-Components/LocationMultiSelectFieldGroup/locationMultiSelectFieldGroupHelper';
 
-export { default as clubOsTheme } from './themes/clubOS';
-export { default as goldsTheme } from './themes/golds';
+export { default as clubOsTheme } from './components/UI-Components/themes/clubOS';
+export { default as goldsTheme } from './components/UI-Components/themes/golds';

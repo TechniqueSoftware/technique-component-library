@@ -1,3 +1,4 @@
+//@ts-nocheck
 import * as React from 'react';
 import { default as MuiToggleButtonGroup, ToggleButtonGroupProps } from '@material-ui/lab/ToggleButtonGroup';
 

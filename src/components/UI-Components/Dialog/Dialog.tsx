@@ -5,7 +5,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import Divider from '@material-ui/core/Divider';
 import { ButtonWithIconProps } from '../../..';
-import ButtonWithIcon from '../Buttons/ButtonWithIcon';
+import ButtonWithIcon from '../Buttons/ButtonWithIcon/ButtonWithIcon';
 
 export interface DialogProps {
   id: string;

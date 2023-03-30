@@ -7,7 +7,7 @@ import * as moment from 'moment';
 import React, { useEffect, useMemo } from 'react';
 import Select from '../Select/Select';
 import { CUSTOM_DATE_RANGE_VALUE, DateRangeOption } from './dateRangeFieldSetConstants';
-import { DATE_FORMAT_ISO } from '../../../constants/dateFormats';
+import { DATE_FORMAT_ISO } from '../constants/dateFormats';
 import { StartAndEndInput, StartAndEndInputProps } from '../StartAndEndInput/StartAndEndInput';
 
 const useStyles = makeStyles(() =>

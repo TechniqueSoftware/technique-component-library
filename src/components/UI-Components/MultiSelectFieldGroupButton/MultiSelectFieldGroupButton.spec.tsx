@@ -2,7 +2,7 @@ import * as React from 'react';
 import { act } from 'react-dom/test-utils';
 import { mount, shallow } from 'enzyme';
 import { MuiThemeProvider } from '@material-ui/core/styles';
-import clubOsTheme from '../../../themes/clubOS';
+import clubOsTheme from '../themes/clubOS';
 import MultiSelectFieldGroupButton, {
   cloneAndClearGroupValueWrapperList,
   cloneGroupValueWrapperList,

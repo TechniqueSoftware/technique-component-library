@@ -1,6 +1,6 @@
 import * as React from 'react';
 import DialogActions from '@material-ui/core/DialogActions';
-import ButtonWithIcon from '../Buttons/ButtonWithIcon';
+import ButtonWithIcon from '../Buttons/ButtonWithIcon/ButtonWithIcon';
 
 import { SelectCustom, SelectCustomProps } from '../Select/SelectCustom';
 import MultiSelectStandardField, { MultiSelectStandardFieldGroupProps } from '../MultiSelectStandardField/MultiSelectStandardField';
