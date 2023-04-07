@@ -2,7 +2,7 @@ import { shallow } from 'enzyme';
 import * as React from 'react';
 import MultiSelectStandardSearchList, { MultiSelectSearchListProps } from './MultiSelectStandardSearchList';
 import { MuiThemeProvider } from '@material-ui/core/styles';
-import clubOsTheme from '../../../themes/clubOS';
+import clubOsTheme from '../../storyThemes';
 
 describe('MultiSelectSearchList', () => {
   const baseProps: MultiSelectSearchListProps = {

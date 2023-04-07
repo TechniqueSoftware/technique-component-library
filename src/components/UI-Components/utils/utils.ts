@@ -10,6 +10,7 @@ import '@storybook/addon-notes/register';
  */
 export function addCUICStory(this: CUICStoriesOf, cuicStoryConfig: CUICStoryConfig): CUICStoriesOf {
   const cuicStory = createCUICStory(cuicStoryConfig);
+  //@ts-ignore
   return this.add(cuicStory.name, cuicStory.render, cuicStory.context);
 }
 
@@ -20,9 +21,10 @@ type CUICStoriesOf = { addCUICStory: typeof addCUICStory } & Story;
  */
 export function createCUICStoriesOf(name: string, module: NodeModule): CUICStoriesOf {
 
+  //@ts-ignore
   const cuicStoriesOf = <CUICStoriesOf>storiesOf(name, module)
     .addDecorator(withKnobs);
-
+  //@ts-ignore
   cuicStoriesOf.addCUICStory = addCUICStory.bind(cuicStoriesOf);
 
   return cuicStoriesOf;

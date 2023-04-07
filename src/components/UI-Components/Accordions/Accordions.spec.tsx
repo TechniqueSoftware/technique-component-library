@@ -1,8 +1,7 @@
 import Accordions from './Accordions';
 import { shallow } from 'enzyme';
 import * as React from 'react';
-
-import clubOsTheme from '../themes/clubOS';
+import clubOsTheme from '../storyThemes';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 
 describe('Accordions', () => {

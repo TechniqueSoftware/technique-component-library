@@ -8,8 +8,10 @@ import clubOsTheme from '../../../../components/UI-Components/storyThemes/index'
 import CloseIcon from '@material-ui/icons/Close';
 import { select, text } from '@storybook/addon-knobs';
 
+//@ts-ignore
 type IconButtonStoryProps = {
   'aria-label': string;
+  //@ts-ignore
   color: 'primary' | 'secondary' | 'default' | null;
 };
 
@@ -41,7 +43,9 @@ createCUICStoriesOf(MODULE_NAME.BUTTONS, module)
     render: () => {
       const color = select('color', ['', 'primary', 'secondary', 'default'], '');
       const ariaLabel = text('Aria Label', 'Close');
+      {/* @ts-ignore */}
       return (
+        
         <IconButtonStory aria-label={ariaLabel} color={color}/>);
     },
     name: 'IconButton',

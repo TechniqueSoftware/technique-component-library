@@ -2,7 +2,7 @@ import * as React from 'react';
 import { shallow } from 'enzyme';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import SingleSearchSelect, { SingleSearchSelectProps } from './SingleSearchSelect';
-import clubOsTheme from '../../themes/clubOS';
+import clubOsTheme from '../storyThemes';
 
 describe('SingleSearchSelect', () => {
   test('should render with minimal props', () => {

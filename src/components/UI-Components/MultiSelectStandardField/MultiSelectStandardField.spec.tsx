@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import MultiSelectStandardField, {
   MultiSelectStandardFieldGroupProps
 } from './MultiSelectStandardField';
-import clubOsTheme from '../../themes/clubOS';
+import clubOsTheme from '../storyThemes';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 
 describe('MultiSelectFieldGroup', () => {

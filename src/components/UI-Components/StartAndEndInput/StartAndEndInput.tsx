@@ -6,7 +6,7 @@ import { Theme } from '@material-ui/core/styles';
 import createStyles from '@material-ui/styles/createStyles';
 import { DateInput } from '../DateInput/DateInput';
 import { TimeInput } from '../TimeInput/TimeInput';
-import { colors } from '../themes/clubOS';
+import { colors } from '../storyThemes';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

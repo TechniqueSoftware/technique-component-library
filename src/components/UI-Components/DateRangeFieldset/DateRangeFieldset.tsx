@@ -121,3 +121,5 @@ export function DateRangeFieldset(props: DateRangeFieldsetProps) {
     {StartAndEndInput(startAndEndInputProps)}
   </React.Fragment>);
 }
+
+export default DateRangeFieldset

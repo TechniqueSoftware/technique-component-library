@@ -186,12 +186,12 @@ const Inquiry = () => {
           <div className={styles.inqFooter}>
             {
               ((formResponse.code === 'SUCCESS' && formResponse.firstName)
-              || (formResponse.code === 'DUPLICATE_USER' && formResponse.user.firstName)
-              || (formResponse.code === 'BAD_REQUEST')
-              || (formResponse.code === 'FORM_SUBMISSION_ERROR')
-              || (formResponse.code === 'INVALID_OWNER_LOCATION')
-              || (formResponse.code === 'INVALID_ATTENDEE')
-              || (formResponse.code === undefined && formResponse.status === 400))
+                || (formResponse.code === 'DUPLICATE_USER' && formResponse.user.firstName)
+                || (formResponse.code === 'BAD_REQUEST')
+                || (formResponse.code === 'FORM_SUBMISSION_ERROR')
+                || (formResponse.code === 'INVALID_OWNER_LOCATION')
+                || (formResponse.code === 'INVALID_ATTENDEE')
+                || (formResponse.code === undefined && formResponse.status === 400))
               && <Alert alertData={formResponse} />
             }
             <div className={styles.btnContainer}>

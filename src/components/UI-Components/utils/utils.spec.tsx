@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { createCUICStoriesOf, createCUICStory } from './utils';
 import { CUICStoryConfig } from '../types/cuic-stories';
 import * as React from 'react';
@@ -17,6 +18,7 @@ describe('CUIC Utilities', () => {
       expect(() => {
         const CUICStoriesOf = createCUICStoriesOf(mockName, module);
         CUICStoriesOf.addCUICStory(cuicStoryConfig);
+        //@ts-ignore
         expect(CUICStoriesOf.kind).toBe(mockName);
       }).not.toThrow();
     });

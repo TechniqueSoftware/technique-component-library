@@ -35,7 +35,7 @@ export interface AccordionsProps {
   ;
 }
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles((theme: any) => //TODO: why does setting type as Theme throw so many errors?
   createStyles({
     title: {
       fontSize: theme.typography.pxToRem(15),

@@ -4,11 +4,11 @@ import MultiSelectStandardFieldButton, {
   MultiSelectStandardFieldButtonProps
 } from './MultiSelectStandardFieldButton';
 import { MuiThemeProvider } from '@material-ui/core/styles';
-import clubOsTheme from '../../themes/clubOS';
 import { act } from 'react-dom/test-utils';
 import {
   MultiSelectSearchListProps
 } from '../MultiSelectStandardField/MultiSelectStandardSearchList/MultiSelectStandardSearchList';
+import clubOsTheme from '../storyThemes';
 
 describe('MultiSelectStandardFieldButton', () => {
   const baseProps: MultiSelectStandardFieldButtonProps = {
