@@ -11,7 +11,7 @@
     "build-storybook": "build-storybook",
     "link": "npx lerna link",
     "bootstrap": "npx lerna bootstrap --hoist --ci ",
-    "deploy": "cd ./src && gitpkg publish && cd ../..",
+    "deploy": " gitpkg publish && cd ../..",
     "publish": "npx lerna publish from-git && git push && npm run deploy"
   },
   "repository": {
