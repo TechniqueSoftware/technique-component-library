@@ -1,4 +1,4 @@
-import { MultiSelectOptionData } from '../../..';
+import { MultiSelectOptionData } from '../MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import pluralize from 'pluralize';
 
 export interface RenderButtonLabelParams {

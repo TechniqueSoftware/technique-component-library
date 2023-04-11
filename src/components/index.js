@@ -46,7 +46,7 @@ export { TextFieldProps } from '@material-ui/core/TextField';
 export {
     default as ButtonWithIcon,
     ButtonWithIconProps
-} from './UI-Components/Buttons/ButtonWithIcon';
+} from './UI-Components/Buttons/ButtonWithIcon/ButtonWithIcon';
 
 export {
     default as SimplePopover,
@@ -64,7 +64,7 @@ export {
 } from './UI-Components/DateRangeFieldset/DateRangeFieldset';
 
 export {
-    default as Select,
+    default as UISelect,
     SelectProps
 } from './UI-Components/Select/Select';
 

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { createCUICStoriesOf } from '../../../../components/UI-Components/utils/utils';
 import { MODULE_NAME } from '../../../../components/UI-Components/constants';
 import clubOsTheme from '../../../../components/UI-Components/storyThemes';
-import { Select, SelectProps } from '../../../..';
+import  Select, { SelectProps } from '../../../../components/UI-Components/Select/Select';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import Grid from '@material-ui/core/Grid';
 import { MenuItem } from '../../../../components/UI-Components/MenuItem/MenuItem';

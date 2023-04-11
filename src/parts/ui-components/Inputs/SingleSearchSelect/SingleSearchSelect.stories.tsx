@@ -6,7 +6,7 @@ import SingleSearchSelect from '../../../../components/UI-Components/SingleSearc
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import Box from '@material-ui/core/Box';
 import { boolean, text, number } from '@storybook/addon-knobs';
-import { SingleSearchSelectProps } from '../../../..';
+import { SingleSearchSelectProps } from '../../../../components/UI-Components/SingleSearchSelect/SingleSearchSelect';
 
 require('moment-timezone');
 

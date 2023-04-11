@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { createCUICStoriesOf } from '../../../components/UI-Components/utils/utils';
 import { MODULE_NAME } from '../../../components/UI-Components/constants';
-import { IconTooltip, IconTooltipProps } from '../../..';
+import { IconTooltip, IconTooltipProps } from '../../../components/UI-Components/Tooltip/IconTooltip/IconTooltip';
 import clubOsTheme from '../../../components/UI-Components/storyThemes';
 import { select, text } from '@storybook/addon-knobs';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';

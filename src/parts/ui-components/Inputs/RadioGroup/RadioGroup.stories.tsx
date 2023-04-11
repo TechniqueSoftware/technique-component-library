@@ -6,7 +6,7 @@ import { text } from '@storybook/addon-knobs';
 import { RadioGroupProps, RadioGroup } from '../../../../components/UI-Components/RadioGroup/RadioGroup';
 import clubOsTheme from '../../../../components/UI-Components/storyThemes';
 import Box from '@material-ui/core/Box';
-import { IconTooltip, IconTooltipProps } from '../../../..';
+import { IconTooltip, IconTooltipProps } from '../../../../components/UI-Components/Tooltip/IconTooltip/IconTooltip';
 import HelpRounded from '@material-ui/icons/HelpRounded';
 
 function RadioGroupStory() {

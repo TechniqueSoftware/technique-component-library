@@ -1,6 +1,6 @@
 import LocationMultiSelectFieldGroupButton, { LocationMultiSelectFieldGroupButtonProps } from './LocationMultiSelectFieldGroupButton';
 import { shallow } from 'enzyme';
-import { LocationMultiSelectFieldGroupProps } from '../../..';
+import { LocationMultiSelectFieldGroupProps } from '../LocationMultiSelectFieldGroup/LocationMultiSelectFieldGroup';
 import * as React from 'react';
 
 describe('LocationMultiSelectFieldGroupButton', () => {

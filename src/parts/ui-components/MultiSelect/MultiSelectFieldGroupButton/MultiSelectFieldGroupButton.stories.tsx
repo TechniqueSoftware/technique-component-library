@@ -8,7 +8,7 @@ import { MODULE_NAME } from '../../../../components/UI-Components/constants';
 import clubOsTheme from '../../../../components/UI-Components/storyThemes';
 import { MultiSelectGroupValueWrapper } from '../../../../components/UI-Components/MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import { MultiSelectFieldGroupProps } from '../../../../components/UI-Components/MultiSelectFieldGroup/MultiSelectFieldGroup';
-import { SelectLocationsWithSmsTooltip } from '../../../..';
+import { SelectLocationsWithSmsTooltip } from '../../../../components/UI-Components/Tooltip/IconTooltip/IconTooltip';
 import MultiSelectFieldGroupButton, { MultiSelectFieldGroupButtonProps }
   from '../../../../components/UI-Components/MultiSelectFieldGroupButton/MultiSelectFieldGroupButton';
 import {

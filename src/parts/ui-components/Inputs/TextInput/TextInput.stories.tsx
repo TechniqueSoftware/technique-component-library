@@ -2,7 +2,7 @@ import * as React from 'react';
 import { createCUICStoriesOf } from '../../../../components/UI-Components/utils/utils';
 import { MODULE_NAME } from '../../../../components/UI-Components/constants';
 import clubOsTheme from '../../../../components/UI-Components/storyThemes';
-import { TextInput, TextInputProps } from '../../../..';
+import { TextInput, TextInputProps } from '../../../../components/UI-Components/TextInput/TextInput';
 import { boolean, number, text } from '@storybook/addon-knobs';
 import Search from '@material-ui/icons/Search';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';

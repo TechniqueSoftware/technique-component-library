@@ -2,7 +2,7 @@ import {
   getRegionsOrLocationsSelectedLabel,
   RenderButtonLabelParams
 } from './locationMultiSelectFieldGroupHelper';
-import { MultiSelectOptionData } from '../../..';
+import { MultiSelectOptionData } from '../MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 
 const regionList: MultiSelectOptionData[] = [{
   labelComponent: undefined,

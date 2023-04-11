@@ -5,7 +5,7 @@ import { MODULE_NAME } from '../../../../components/UI-Components/constants';
 import clubOsTheme from '../../../../components/UI-Components/storyThemes';
 import { MultiSelectGroupValueWrapper, MultiSelectOptionData } from '../../../../components/UI-Components/MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import { LocationMultiSelectFieldGroupProps } from '../../../../components/UI-Components/LocationMultiSelectFieldGroup/LocationMultiSelectFieldGroup';
-import { SelectLocationsWithSmsTooltip, LocationMultiSelectFieldGroupButton } from '../../../..';
+import { SelectLocationsWithSmsTooltip, LocationMultiSelectFieldGroupButton } from '../../../../components/UI-Components/LocationMultiSelectFieldGroupButton/LocationMultiSelectFieldGroupButton';
 
 import { ThemeProvider } from '@material-ui/styles';
 import Box from '@material-ui/core/Box';

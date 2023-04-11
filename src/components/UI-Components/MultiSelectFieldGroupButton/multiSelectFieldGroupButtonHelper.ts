@@ -1,4 +1,4 @@
-import { MultiSelectGroupValueWrapper } from '../../..';
+import { MultiSelectGroupValueWrapper } from '../MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import { MultiSelectOptionGroupData } from '../MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import { getLabelFromGroupCounts, GroupCount } from '../../../services/groupLabelService';
 

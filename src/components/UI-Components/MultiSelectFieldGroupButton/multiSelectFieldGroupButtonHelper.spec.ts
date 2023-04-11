@@ -1,4 +1,4 @@
-import { MultiSelectOptionData } from '../../..';
+import { MultiSelectOptionData } from '../MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import { getButtonLabel, GetButtonLabelParams } from './multiSelectFieldGroupButtonHelper';
 
 describe('multiSelectFieldGroupButtonHelper', () => {

@@ -3,7 +3,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import ButtonWithIcon from '../Buttons/ButtonWithIcon/ButtonWithIcon';
 import MultiSelectFieldGroup, { MultiSelectFieldGroupProps } from '../MultiSelectFieldGroup/MultiSelectFieldGroup';
 // noinspection TypeScriptPreferShortImport
-import { MultiSelectGroupValueWrapper } from '../../..';
+import { MultiSelectGroupValueWrapper } from '../MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import { getButtonLabel } from './multiSelectFieldGroupButtonHelper';
 import { SelectCustom, SelectCustomProps } from '../Select/SelectCustom';
 import makeStyles from '@material-ui/core/styles/makeStyles';

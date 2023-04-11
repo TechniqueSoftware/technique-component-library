@@ -8,7 +8,7 @@ import MultiSelectFieldGroupButton, {
   cloneGroupValueWrapperList,
   MultiSelectFieldGroupButtonProps
 } from './MultiSelectFieldGroupButton';
-import { MultiSelectFieldGroupProps, MultiSelectGroupValueWrapper } from '../../..';
+import { MultiSelectFieldGroupProps, MultiSelectGroupValueWrapper } from '../MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 import { MultiSelectSearchListProps } from '../MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 
 describe('MultiSelectFieldGroupButton', () => {

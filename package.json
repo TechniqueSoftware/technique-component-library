@@ -1,6 +1,6 @@
 {
   "name": "technique-component-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a WIP to reconstruct our two component libraries into one",
   "main": "index.js",
   "module": "lib/index.esm.js",
