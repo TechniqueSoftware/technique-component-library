@@ -51,8 +51,6 @@
     "@storybook/addon-links": "^6.5.16",
     "@storybook/addon-viewport": "5.1.11",
     "@storybook/addons": "5.1.11",
-    "@storybook/builder-webpack4": "^6.5.16",
-    "@storybook/manager-webpack4": "^6.5.16",
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
@@ -104,7 +102,7 @@
     "invariant": "^2.2.4",
     "jest": "^23.1.0",
     "jss": "10.0.0-alpha.16",
-    "lerna": "^6.6.1",
+    "lerna": "^3.13.4",
     "lodash": "^4.17.21",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
@@ -137,7 +135,7 @@
     "tslint-config-airbnb": "^5.11.1",
     "tslint-react": "^3.6.0",
     "typescript": "3.5.1",
-    "webpack": "^5.76.3"
+    "webpack": "4.28.3"
   },
   "peerDependencies": {
     "@types/jss": "^9.5.8",

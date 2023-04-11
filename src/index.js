@@ -5,90 +5,90 @@
 export {
     default as Paper,
     PaperProps,
-} from './components/Paper/Paper';
+} from './components/UI-Components/Paper/Paper';
 
 export {
     default as LocationMultiSelectFieldGroup,
     LocationMultiSelectFieldGroupProps
-} from './components/LocationMultiSelectFieldGroup/LocationMultiSelectFieldGroup';
+} from './components/UI-Components/LocationMultiSelectFieldGroup/LocationMultiSelectFieldGroup';
 
 export {
     default as LocationMultiSelectFieldGroupButton,
     LocationMultiSelectFieldGroupButtonProps
-} from './components/LocationMultiSelectFieldGroupButton/LocationMultiSelectFieldGroupButton';
+} from './components/UI-Components/LocationMultiSelectFieldGroupButton/LocationMultiSelectFieldGroupButton';
 
 export {
     default as SelectLocationsWithSmsTooltip
-} from './components/Tooltip/IconTooltip/IconTooltip';
+} from './components/UI-Components/Tooltip/IconTooltip/IconTooltip';
 
 export {
     default as TextInput,
     TextInputProps
-} from './components/TextInput/TextInput';
+} from './components/UI-Components/TextInput/TextInput';
 
 export {
     default as TextField,
-} from './components/TextField/TextField';
+} from './components/UI-Components/TextField/TextField';
 
 export { TextFieldProps } from '@material-ui/core/TextField';
 
 export {
     default as ButtonWithIcon,
     ButtonWithIconProps
-} from './components/Buttons/ButtonWithIcon';
+} from './components/UI-Components/Buttons/ButtonWithIcon';
 
 export {
     default as SimplePopover,
     SimplePopoverProps
-} from './components/SimplePopover/SimplePopover';
+} from './components/UI-Components/SimplePopover/SimplePopover';
 
 export {
     default as IconTooltip,
     IconTooltipProps
-} from './components/Tooltip/IconTooltip/IconTooltip';
+} from './components/UI-Components/Tooltip/IconTooltip/IconTooltip';
 
 export {
     default as DateRangeFieldset,
     DateRangeFieldsetProps
-} from './components/DateRangeFieldset/DateRangeFieldset';
+} from './components/UI-Components/DateRangeFieldset/DateRangeFieldset';
 
 export {
     default as Select,
     SelectProps
-} from './components/Select/Select';
+} from './components/UI-Components/Select/Select';
 
 export {
     default as Snackbar,
     SnackbarProps
-} from './components/Snackbar/Snackbar';
+} from './components/UI-Components/Snackbar/Snackbar';
 
 export {
     default as SingleSearchSelect,
     SingleSearchSelectProps
-} from './components/SingleSearchSelect/SingleSearchSelect';
+} from './components/UI-Components/SingleSearchSelect/SingleSearchSelect';
 
 export {
     default as MultiSelectFieldGroup,
     MultiSelectFieldGroupProps,
     MultiSelectRadioInputProps,
-} from './components/MultiSelectFieldGroup/MultiSelectFieldGroup';
+} from './components/UI-Components/MultiSelectFieldGroup/MultiSelectFieldGroup';
 
 export {
     default as MultiSelectSearchList,
     MultiSelectOptionData,
     MultiSelectGroupValueWrapper
-} from './components/MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
+} from './components/UI-Components/MultiSelectFieldGroup/MultiSelectSearchList/MultiSelectSearchList';
 
 export {
     default as Accordions,
     AccordionsProps,
     Accordion,
-} from './components/Accordions/Accordions';
+} from './components/UI-Components/Accordions/Accordions';
 
 export {
     getRegionsOrLocationsSelectedLabel,
     RenderButtonLabelParams
-} from './components/LocationMultiSelectFieldGroup/locationMultiSelectFieldGroupHelper';
+} from './components/UI-Components/LocationMultiSelectFieldGroup/locationMultiSelectFieldGroupHelper';
 
-export { default as clubOsTheme } from './themes/clubOS';
-export { default as goldsTheme } from './themes/golds';
+export { default as clubOsTheme } from './components/UI-Components/themes';
+export { default as goldsTheme } from './components/UI-Components/themes';
