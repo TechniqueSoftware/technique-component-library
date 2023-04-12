@@ -9,10 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "link": "npx lerna link",
-    "bootstrap": "npx lerna bootstrap --hoist --ci ",
     "deploy": " gitpkg publish && cd ../..",
-    "publish": "npx lerna publish from-git && git push && npm run deploy"
+    "build": "rm -rf dist && webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -102,7 +100,6 @@
     "invariant": "^2.2.4",
     "jest": "^23.1.0",
     "jss": "10.0.0-alpha.16",
-    "lerna": "^3.13.4",
     "lodash": "^4.17.21",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
