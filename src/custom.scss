@@ -1,0 +1,40 @@
+html {
+	font-size: 13px;
+}
+
+@import '../node_modules/bootstrap/scss/functions';
+
+$theme-primary: #f37120 !default;
+$theme-secondary: #ba4909 !default;
+$theme-tertiary: #666 !default;
+$theme-quaternary: #444 !default;
+
+$orange: $theme-primary;
+$primary: $orange;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.btn-primary,
+.btn-primary:disabled,
+.btn-primary.disabled {
+	background-color: $theme-primary !important;
+	border-color: $theme-primary !important;
+	color: $white;
+}
+
+.btn-primary:hover {
+	color: $white;
+	background-color: $theme-secondary;
+	border-color: $theme-secondary;
+}
+
+.btn-outline-primary:hover {
+	color: $theme-secondary;
+	background-color: $white;
+	border-color: $theme-secondary;
+}
+
+.modal-header {
+	background-color: $theme-primary;
+	color: $white;
+}
