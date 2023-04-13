@@ -103,4 +103,3 @@ export {
 
 export { default as clubOsTheme } from './components/UI-Components/themes/clubOS';
 export { default as goldsTheme } from './components/UI-Components/themes/golds';
-
